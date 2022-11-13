@@ -168,32 +168,114 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Migración de Bases de Datos SQL a NoSQL',
+      referencia:
+        'Antaño, A. C. M. el at. (2014), Migración de bases de datos sql a nosql. Revista Tlamati. ',
+      tipo: 'PDF',
+      link:
+        'https://www.researchgate.net/profile/Rene-Cuevas-Valencia/publication/272482056_Migracion_de_Bases_de_Datos_SQL_a_NoSQL/links/54e543390cf276cec173c2b5/Migracion-de-Bases-de-Datos-SQL-a-NoSQL.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Seguridad de Datos ',
+      referencia:
+        'Martín, E. S. (2015), Salvaguarda y seguridad de los datos: administración de bases de datos (UF1473). IC Editorial. ',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/44140?page=13.',
+    },
+    {
+      tema: 'Copias de seguridad Bases de datos Mysql',
+      referencia:
+        'Programador Novato (2021), Respaldos y restauración de bases de datos en MySQL Workbench (Curso de MySQL desde cero. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=U-0SbQgnnGU&t=230s',
+    },
+    {
+      tema: 'Introducción de bases de datos Mongodb',
+      referencia:
+        'Sarasa, A. (2016), Introducción a las bases de datos NoSQL usando MongoDB. UOC. ',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/58524?page=274.',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Archivo',
+      significado:
+        'Conjunto de documentos, sea cual fuere su fecha, forma y soporte material, acumulados en el transcurso de la gestión por una persona o entidad pública o privada, y conservados respetando su orden para servir como testimonio y documentación a la persona o institución que los produce y a los ciudadanos. También se puede entender como la institución que está al servicio de la gestión administrativa, la información, la investigación y la cultura. (Ley 594 de 2000, art 3)',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Bases de datos',
+      significado:
+        'Conocido también como banco de datos, se puede determinar que es un conjunto de información perteneciente a un mismo contexto y que se ordena de modo sistemático en una herramienta digital para su posterior consulta y análisis.',
+    },
+    {
+      termino: 'Migración',
+      significado:
+        'Paso de los programas, archivos y datos de un sistema de una plataforma tecnológica a otra.',
+    },
+    {
+      termino: 'Mongodb',
+      significado: 'Gestor de bases de datos NoSQL.',
+    },
+    {
+      termino: 'MySQL',
+      significado: 'Gestor de bases de datos SQL',
+    },
+    {
+      termino: 'NoSQL',
+      significado:
+        'Paradigma para la administración de bases de datos que se adapta a una amplia variedad de modelos, formatos de valor clave, documento, columnas y gráficos.',
+    },
+    {
+      termino: 'Restauración',
+      significado:
+        'Acción de cargar uno o varios elementos a una base de datos desde una copia de seguridad. La restauración sobrescribe cualquier información con la que encuentre en la copia de seguridad. Después de restaurar una base de datos, deberá recuperarla.',
+    },
+    {
+      termino: 'Seguridad de la información',
+      significado:
+        'Todos los controles técnicos y metodológicos que permiten mitigar los riesgos a los que se expone la información.',
+    },
+    {
+      termino: 'SGSI',
+      significado:
+        'Sistema de Gestión de Seguridad de la Información. Es el conjunto de procesos para gestionar eficientemente la accesibilidad de la información, buscando asegurar la confidencialidad, integridad y disponibilidad de los activos de información y minimizando sus riesgos de seguridad.',
+    },
+    {
+      termino: 'TIC',
+      significado: 'Sigla de Tecnologías de Información y Comunicación (TIC).',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Leguizamon, A. Y. (2017), Pautas para una correcta migración de bases de datos. Universidad Libre ',
+      link: 'https://repository.unilibre.edu.co/handle/10901/11161',
+    },
+    {
+      referencia:
+        'Lozano Banqueri, J. M. (2018), Creación y gestión de una base de datos con MySQL y phpMyAdmin. Universidad de Jaén, Facultad de Ciencias Sociales y Jurídicas. ',
+      link: 'https://tauja.ujaen.es/bitstream/10953.1/9445/1/TFG%20%285%29.pdf',
+    },
+    {
+      referencia:
+        'Manjarrez Antaño, A (2014), Migración de bases de datos sql a nosql. Revista Tlamati, Especial. ',
+      link:
+        'https://www.researchgate.net/profile/Rene-Cuevas-Valencia/publication/272482056_Migracion_de_Bases_de_Datos_SQL_a_NoSQL/links/54e543390cf276cec173c2b5/Migracion-de-Bases-de-Datos-SQL-a-NoSQL.pdf',
+    },
+    {
+      referencia:
+        'Pulido Romero, E. aet al.(2019), Base de datos. Grupo Editorial Patria.  ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/121283 ',
+    },
+    {
+      referencia:
+        'UTC (2020), Migración de bases de datos: Conceptos y principios (parte 1) Cloud Architecture Center. ',
+      link:
+        'https://cloud.google.com/architecture/database-migration-concepts-principles-part-1?hl=es-419',
     },
   ],
   creditos: {
