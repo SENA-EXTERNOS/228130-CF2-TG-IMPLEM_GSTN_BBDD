@@ -45,22 +45,22 @@
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/T5/img-4.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/T5/img-4.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.fae.p-3(x="16%" y="4%" numero="Aprobación")
-        p determinar, al interior de la entidad, la persona, rol o dirección que tiene la competencia de formalizar las políticas de seguridad de la información mediante la firma y publicación de las mismas.
+      .tarjeta.fae.p-3(x="16%" y="4%" numero="")
+        p Determinar, al interior de la entidad, la persona, rol o dirección que tiene la competencia de formalizar las políticas de seguridad de la información mediante la firma y publicación de las mismas.
 
-      .tarjeta.fae.p-3(x="33%" y="95%" numero="Justificación")
-        p  identificar el por qué la entidad requiere la creación de la política de seguridad de información y el control al cual hace referencia su implementación.
+      .tarjeta.fae.p-3(x="33%" y="95%" numero="")
+        p  Identificar el por qué la entidad requiere la creación de la política de seguridad de información y el control al cual hace referencia su implementación.
 
-      .tarjeta.fae.p-3(x="50%" y="4%" numero="Alcance")
-        p  establecer el alcance ¿A qué población, áreas, procesos o departamentos aplica la política?, ¿Quiénes deben cumplir la política?
+      .tarjeta.fae.p-3(x="50%" y="4%" numero="")
+        p  Establecer el alcance ¿A qué población, áreas, procesos o departamentos aplica la política?, ¿Quiénes deben cumplir la política?
 
-      .tarjeta.fae.p-3(x="66%" y="95%" numero="Roles y responsabilidad")
-        p definir los responsables y los roles para la implementación, aplicación, seguimiento y autorización de la política.
+      .tarjeta.fae.p-3(x="66%" y="95%" numero="")
+        p Definir los responsables y los roles para la implementación, aplicación, seguimiento y autorización de la política.
 
-      .tarjeta.fae.p-3(x="83%" y="4%" numero="Revisión")
-        p evaluar la redacción y aplicabilidad de la política y realizar sugerencias sobre el desarrollo y creación de la misma.
+      .tarjeta.fae.p-3(x="83%" y="4%" numero="")
+        p Evaluar la redacción y aplicabilidad de la política y realizar sugerencias sobre el desarrollo y creación de la misma.
 
     Separador
 

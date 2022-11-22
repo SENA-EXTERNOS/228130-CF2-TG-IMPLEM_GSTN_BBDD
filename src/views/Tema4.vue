@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Planes de resguardo y de desastres informáticos.
+      h1 Planes de resguardo y de desastres informáticos
 
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-3.mb-4

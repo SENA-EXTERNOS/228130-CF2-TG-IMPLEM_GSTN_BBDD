@@ -91,79 +91,80 @@
         p.mb-5 En primer lugar, es necesario que exista un archivo de copia de la base datos, paso seguido se realiza el borrado de la base de datos dañada con la sintaxis db.dropDatabase(), después  se crea la base de datos en MongoDBCompass (Interfaz gráfica) dando clic en el boton ‘create databases’, aparecerá un cuadro de agregación de bases de datos y colección, luego se selecciona la opción ‘Import Data’, seguido de agregar datos desde archivo de bakup .csv, y de esta manera queda el registro de datos en la nueva base de datos. 
 
 
-    LineaTiempoC.color-primario.mb-5
-      .row.justify-content-around.align-items-center(titulo="Paso 1")
-        .col-md-6.mb-4.mb-md-0
-          p.mb-4 <b>Paso 1</b>
-          p ver bases de datos <i>MogoDBCompass</i>
-      
-        .col-md-6
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 14.
-            span  <i> Bases de datos MogoDBCompass</i>
-          figure
-            img(src='@/assets/curso/temas/T2/img-7.png', alt='Texto que describa la imagen')
+    .tarjeta.tarjeta--gris.p-4.mb-5
+      LineaTiempoC.color-primario.mb-5
+        .row.justify-content-around.align-items-center(titulo="Paso 1")
+          .col-md-6.mb-4.mb-md-0
+            p.mb-4 <b>Paso 1</b>
+            p Ver bases de datos <i>MogoDBCompass</i>
+        
+          .col-md-6
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 14.
+              span  <i> Bases de datos MogoDBCompass</i>
+            figure
+              img(src='@/assets/curso/temas/T2/img-7.png', alt='Texto que describa la imagen')
 
 
-      .row.justify-content-around.align-items-center(titulo="Paso 2")
-        .col-md-6.mb-4.mb-md-0
-          p.mb-4 <b>Paso 2</b>
-          p Creación de bases de datos
-      
-        .col-md-6
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 15.
-            span  <i>Creación de bases de datos</i>
-          figure
-            img(src='@/assets/curso/temas/T2/img-8.png', alt='Texto que describa la imagen')
-          
-      .row.justify-content-around.align-items-center(titulo="Paso 3")
-        .col-md-6.mb-4.mb-md-0
-          p.mb-4 <b>Paso 3</b>
-          p seguido, encuentra la pantalla para nombrar bases de datos, en este caso se llamará ‘ejercicio1’
-      
-        .col-md-6
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 16.
-            span  <i> Nombre para base de datos</i>
-          figure
-            img(src='@/assets/curso/temas/T2/img-9.png', alt='Texto que describa la imagen')
+        .row.justify-content-around.align-items-center(titulo="Paso 2")
+          .col-md-6.mb-4.mb-md-0
+            p.mb-4 <b>Paso 2</b>
+            p Creación de bases de datos
+        
+          .col-md-6
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 15.
+              span  <i>Creación de bases de datos</i>
+            figure
+              img(src='@/assets/curso/temas/T2/img-8.png', alt='Texto que describa la imagen')
+            
+        .row.justify-content-around.align-items-center(titulo="Paso 3")
+          .col-md-6.mb-4.mb-md-0
+            p.mb-4 <b>Paso 3</b>
+            p Seguido, encuentra la pantalla para nombrar bases de datos, en este caso se llamará ‘ejercicio1’
+        
+          .col-md-6
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 16.
+              span  <i> Nombre para base de datos</i>
+            figure
+              img(src='@/assets/curso/temas/T2/img-9.png', alt='Texto que describa la imagen')
 
-      .row.justify-content-around.align-items-center(titulo="Paso 4")
-        .col-md-6.mb-4.mb-md-0
-          p.mb-4 <b>Paso 4</b>
-          p importar datos
-      
-        .col-md-6
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 17.
-            span  <i>Importar datos</i>
-          figure
-            img(src='@/assets/curso/temas/T2/img-10.png', alt='Texto que describa la imagen')
+        .row.justify-content-around.align-items-center(titulo="Paso 4")
+          .col-md-6.mb-4.mb-md-0
+            p.mb-4 <b>Paso 4</b>
+            p Importar datos
+        
+          .col-md-6
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 17.
+              span  <i>Importar datos</i>
+            figure
+              img(src='@/assets/curso/temas/T2/img-10.png', alt='Texto que describa la imagen')
 
-      .row.justify-content-around.align-items-center(titulo="Paso 5")
-        .col-md-6.mb-4.mb-md-0
-          p.mb-4 <b>Paso 5</b>
-          p agregar datos desde archivo 
-      
-        .col-md-6
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 18.
-            span  <i>Agregar datos desde archivo</i>
-          figure
-            img(src='@/assets/curso/temas/T2/img-11.png', alt='Texto que describa la imagen')
+        .row.justify-content-around.align-items-center(titulo="Paso 5")
+          .col-md-6.mb-4.mb-md-0
+            p.mb-4 <b>Paso 5</b>
+            p Agregar datos desde archivo 
+        
+          .col-md-6
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 18.
+              span  <i>Agregar datos desde archivo</i>
+            figure
+              img(src='@/assets/curso/temas/T2/img-11.png', alt='Texto que describa la imagen')
 
-      .row.justify-content-around.align-items-center(titulo="Paso 6")
-        .col-md-6.mb-4.mb-md-0
-          p.mb-4 <b>Paso 6</b>
-          p aparece la pantalla de datos importados
-      
-        .col-md-6
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 19.
-            span  <i>Datos importados</i>
-          figure
-            img(src='@/assets/curso/temas/T2/img-12.png', alt='Texto que describa la imagen')
+        .row.justify-content-around.align-items-center(titulo="Paso 6")
+          .col-md-6.mb-4.mb-md-0
+            p.mb-4 <b>Paso 6</b>
+            p Aparece la pantalla de datos importados
+        
+          .col-md-6
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 19.
+              span  <i>Datos importados</i>
+            figure
+              img(src='@/assets/curso/temas/T2/img-12.png', alt='Texto que describa la imagen')
 
 
 </template>

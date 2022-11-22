@@ -43,16 +43,16 @@
     
     Separador
 
-      #t_1_1.titulo-segundo.color-acento-contenido
-        h2 1.1 Copias de seguridad Bases de Datos SQL
+    #t_1_1.titulo-segundo.color-acento-contenido
+      h2 1.1 Copias de seguridad Bases de Datos SQL
 
-      ol.lista-ol--cuadro.mb-3
-        li
-          .lista-ol--cuadro__vineta.fcc
-            span 
-          p <b>Métodos para crear copias de seguridad</b>
-      
-      p.mb-3 El programa mysqldump puede hacer copias de seguridad de una base de datos con la sintaxis mysqldump.
+    ol.lista-ol--cuadro.mb-3
+      li
+        .lista-ol--cuadro__vineta.fcc
+          span 
+        p <b>Métodos para crear copias de seguridad</b>
+    
+    p.mb-3 El programa mysqldump puede hacer copias de seguridad de una base de datos con la sintaxis mysqldump.
 
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Paso 1")
