@@ -125,3 +125,14 @@
 
 .aside-menu__menu__item--sub-menu--active .aside-menu__menu__item__lnk, .aside-menu__menu__item--sub-menu--active .aside-menu__sec-menu__item__lnk 
   background-color: #D8ECFF !important
+
+.bloque-texto-a__texto.p-4, .bloque-texto-g__texto.p-4
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    width: calc( 100% + 2rem )
+    height: calc( 100% + 2rem )
+    border: dashed $color-primario
+    top: -1rem
+    left: -1rem

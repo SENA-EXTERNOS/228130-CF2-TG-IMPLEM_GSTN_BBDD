@@ -145,7 +145,7 @@
               .bloque-texto-x__img(data-aos='fade-right')(
                 :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-8.png')})`}"
               )
-              .bloque-texto-x__texto.p-4
+              .bloque-texto-g__texto.p-4
                 p.mb-3 “Para realizar un <i>backup</i> de la base de datos se utiliza el comando mongodump, y para ello es necesario que esté ejecutándose el servidor sobre el que se va a realizar el <i>backup</i>” (Sarasa, A. 2016). 
                 p.mb-3 Cada copia de seguridad se define de acuerdo a como esté estimado en una empresa, por lo general se establecen diariamente; sin embargo, hay datos que son de una importancia tal, que deben ser copiados de manera instantánea.
 

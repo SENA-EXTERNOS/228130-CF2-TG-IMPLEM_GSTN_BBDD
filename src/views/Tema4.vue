@@ -67,159 +67,283 @@
     .row.mt-5
       .col-10.offset-1  
         .tabla-a.color-acento-contenido.mb-5 
-          table
-            caption.mt-3 <b>Nota.</b> Tomado de plan de contingencia y políticas de seguridad de sistemas de información -Copnia- (2012).
+
+
+        
+          
+          table(width='767')
             thead
               tr
-                th RIESGO FACTOR
-                th TIPO DE RIESGO
-                th PREVENCIÓN Y MITIGACIÓN
-            tbody.text-center
+                td(rowspan='2' width='44')
+                  p No
+                td(rowspan='2' width='175')
+                  p Actividad
+                td(rowspan='2' width='173')
+                  p Elementos
+                td(rowspan='2' width='199')
+                  p Resultados
+                td(colspan='2' width='89')
+                  p Realizado
+                td(width='88')
+                  p Fecha
               tr
-                td Fuego: destrucción de equipos y archivos
-                td.color-texto Bajo
-                td Extintores, aspersores automáticos, detectores de humo, pólizas de seguros
-              tr
-                td Robo común: pérdida de equipos y archivos
-                td.color-texto-segundo Medio
-                td Seguridad privada, alarma, seguro contra todo riesgo y copias de respaldo (<i>BackUp</i>)
-              tr
-                td Vandalismo: daño a los equipos y archivos
-                td.color-texto-segundo Medio
-                td Seguro contra todo riesgo, copias de respaldo.
-              tr
-                td Fallas en los equipos: daño a los archivos.
-                td.color-texto Bajo
-                td Mantenimiento, equipos de respaldo, garantía y copias de respaldo. 
-              tr
-                td Equivocaciones: daño a los archivos
-                td.color-texto-segundo Medio
-                td Capacitación, copias de respaldo, políticas de seguridad.
-              tr
-                td Virus: daño a equipos y archivos
-                td.color-texto-segundo Medio
-                td Actualizaciones del sistema operativo, antivirus actualizados, copias de respaldo.
-              tr
-                td Terremotos: destrucción de equipo y archivos
-                td.color-texto-segundo Medio
-                td Seguro contra todo riesgo, copias de respaldo, cumpliendo de las normas antisísmicas en las sedes.
-              tr
-                td Accesos no autorizados: filtrado no autorizado de datos
-                td.color-texto Bajo
-                td Cambio de claves de acceso cada seis meses,  política de seguridad para acceso a personal competente.
-              tr
-                td Robo de datos: difusión de datos sin el debido cubrimiento de su costo
-                td.color-texto Bajo
-                td Cambio de claves de acceso cada seis meses, custodia de las copias de respaldo.
-              tr
-                td Fraude: modificación y/o desvío de la información y fondos de la institución
-                td.color-texto Bajo
-                td Sistemas de información seguros con dos usuarios para autorizar transacciones, procedimiento de control y registro de transacciones en tablas de auditoría.
-
-    .row.justify-content-around.align-items-center.mb-5
-      .col-lg-1.mb-4
-        figure(data-aos='fade-right')
-          img(src='@/assets/curso/temas/T4/img-6.svg', alt='')
-                    
-      .col-lg-11.mb-5
-        p.mb-2 Asimismo, existen los planes de respaldo, que consisten en documentar las acciones realizadas durante un determinado tiempo con el objeto de prever, mitigar o eliminar los riesgos de perdida de la información en los sistemas gestores de bases de datos. En la siguiente tabla se presenta un formato de plan de resguardo que puede ser aplicado en cualquier organización:
-
-    .titulo-sexto.color-acento-contenido
-      h5 Tabla 2.
-      span Formato de Plan de Respaldo
-
-
-    .row.mt-5
-      .col-10.offset-1  
-        .tabla-a.color-acento-contenido.mb-5 
-          table
-            caption.mt-3 <b>Nota.</b> Tomado de plan de contingencia y políticas de seguridad de sistemas de información 2012, (Copnia).
-            thead
-              tr
-                th No.
-                th Actividad
-                th Elementos
-                th Resultados 
-                th Realizado
-                th Fecha
+                td(width='39')
+                  p
+                    strong Si
+                td(width='50')
+                  p
+                    strong No
+                td(width='88')
+                  p
             tbody
               tr
-                td 1
-                td Realizar copias de    seguridad de la información y documentos residentes en los discos duros de los computadores.
-                td Documentos en formatos Word, Excel, PDF, artes,   imágenes, audio y correos electrónicos, una  copia  de  seguridad  en  la nube, una copia de  seguridad anual obligatoria de todos los documentos.
-                td Copia de seguridad en la nube en línea o una copia de seguridad anual de todos los datos. <br><br> <b>Responsable:</b> Oficina de Sistemas de información y de las comunicaciones de la empresa.
-                td
-                td
+                td(width='44')
+                  p 1
+                td(width='175')
+                  p
+                    | Realizar copias de&nbsp;&nbsp;&nbsp; seguridad de la informaci&oacute;n y documentos residentes en los discos duros de los computadores.
+                td(width='173')
+                  p
+                    | Documentos en formatos Word, Excel, PDF, artes,&nbsp; &nbsp;im&aacute;genes, audio y correos electr&oacute;nicos, una&nbsp; copia&nbsp; de&nbsp; seguridad&nbsp; en&nbsp; la nube, una copia de&nbsp; seguridad anual obligatoria de todos los documentos.
+                td(width='199')
+                  p
+                    | Copia de seguridad en la nube en l&iacute;nea o una copia de seguridad anual de todos los datos.
+                  p
+                    strong &nbsp;
+                  p
+                    strong &nbsp;
+                  p
+                    strong Responsable
+                    | : Oficina de Sistemas de informaci&oacute;n y de las comunicaciones de la empresa.
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
               tr
-                td 2
-                td Realizar copias de seguridad de los sistemas de información y bases de datos.
-                td Aplicaciones web e intranet de información, aplicaciones y bases de datos de los procesos y archivos, registro nacional de profesionales.
-                td Copia de seguridad semanal del sistema de información activo. Los   servicios de <i>hosting</i> en <i>datacenter</i> contratados incluirán el <i>backup</i> para las aplicaciones <br><br> <b>Responsable:</b> Ingeniero   de sistemas. 
-                td
-                td 
+                td(width='44')
+                  p 2
+                td(width='175')
+                  p Realizar copias de seguridad de los sistemas de informaci&oacute;n y bases de datos.
+                td(width='173')
+                  p
+                    | Aplicaciones web e intranet de informaci&oacute;n, aplicaciones y bases de datos de los procesos y archivos, registro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nacional de profesionales.
+                td(width='199')
+                  p
+                    | Copia de seguridad semanal del sistema de informaci&oacute;n activo. Los&nbsp;&nbsp; servicios de 
+                    em hosting
+                    |  en 
+                    em datacenter
+                    |  contratados incluir&aacute;n el 
+                    em backup
+                    |  para las aplicaciones.
+                  p &nbsp;
+                  p
+                    strong Responsable
+                    | : Ingeniero&nbsp;&nbsp; de sistemas.
+                  p &nbsp;
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
               tr
-                td 3
-                td Contar mínimo con un kit de instalación para restaurar los archivos del sistema operativo y aplicaciones de un computador o servidor en caso de falla o virus.
-                td Sistema operativo (Windows, Linux, etc.), paquetes de ofimática y diseño. (Office, Corel), bases de datos(Sql, MySql, FoxPro, etc.), drivers y utilitarios de impresoras, redes, computadores, etc.
-                td Contar con mínimo un medio de instalación por cada oficina. Una copia u original del instalador custodia de sistemas. <br><br> <b>Responsable:</b> Ingeniero de sistemas y secretarios seccionales.
-                td
-                td
+                td(width='44')
+                  p 3
+                td(width='175')
+                  p Contar m&iacute;nimo con un kit de instalaci&oacute;n para
+                  p restaurar los archivos del sistema operativo y
+                  p aplicaciones de un computador o servidor en caso de falla o virus.
+                  p &nbsp;
+                td(width='173')
+                  p
+                    | Sistema operativo (Windows, Linux, etc.), paquetes de ofim&aacute;tica y dise&ntilde;o. (Office, Corel), bases&nbsp;&nbsp; de&nbsp;&nbsp; datos (Sql, MySql, FoxPro, etc.) , drivers y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; utilitarios&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; de impresoras,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; redes, computadores, etc.
+                td(width='199')
+                  p
+                    | Contar con m&iacute;nimo un medio de instalaci&oacute;n por cada oficina. Una copia u original del instalador custodia de sistemas.
+                  p &nbsp;
+                  p
+                    strong Responsable
+                    | : Ingeniero&nbsp;&nbsp;&nbsp;&nbsp; de sistemas y secretarios seccionales.
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
               tr
-                td 4
-                td Mantener descentralizados los sistemas de información, de acuerdo a sus necesidades.
-                td Sitio web, base de datos, aplicaciones fuera de línea en seccionales.
-                td Aplicaciones instaladas en diferentes localizaciones físicas, computadores o servidores. <br><br> <b>Responsable:</b> Ingeniero de sistemas.
-                td
-                td  
+                td(width='44')
+                  p 4
+                td(width='175')
+                  p Mantener descentralizados&nbsp;&nbsp;&nbsp; los&nbsp;&nbsp;&nbsp; sistemas&nbsp;&nbsp;&nbsp; de
+                  p informaci&oacute;n, de&nbsp;&nbsp; acuerdo&nbsp; &nbsp;a&nbsp;&nbsp; sus necesidades.
+                  p &nbsp;
+                td(width='173')
+                  p Sitio&nbsp;&nbsp;&nbsp; web, base de&nbsp;&nbsp;&nbsp; datos, aplicaciones&nbsp;&nbsp; fuera&nbsp;&nbsp; de l&iacute;nea en seccionales.
+                td(width='199')
+                  p
+                    | Aplicaciones instaladas en diferentes localizaciones f&iacute;sicas, computadores o servidores.
+                  p &nbsp;
+                  p
+                    strong Responsable
+                    | : Ingeniero&nbsp;&nbsp;&nbsp;&nbsp; de sistemas.
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
               tr
-                td 5
-                td Mantener pólizas de seguros vigentes, asegurando contra todo riesgo los equipos y bienes por su valor real.
-                td Equipos eléctricos y/o electrónicos, móviles, portátiles, software y equipos de comunicación.
-                td Póliza vigente contra todo riesgo de daño y/o pérdida física por cualquier causa. <br><br> <b>Responsable:</b> Profesional de gestión administrativa.
-                td
-                td 
+                td(width='44')
+                  p 5
+                td(width='175')
+                  p
+                    | Mantener p&oacute;lizas de&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; seguros vigentes, asegurando contra todo riesgo los equipos y bienes por su valor real.
+                td(width='173')
+                  p
+                    | Equipos el&eacute;ctricos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y/o electr&oacute;nicos, m&oacute;viles, port&aacute;tiles, software y equipos de comunicaci&oacute;n.
+                td(width='199')
+                  p
+                    | P&oacute;liza&nbsp;&nbsp;&nbsp;&nbsp; vigente&nbsp;&nbsp;&nbsp; contra&nbsp;&nbsp;&nbsp; todo riesgo&nbsp;&nbsp; de&nbsp;&nbsp; da&ntilde;o&nbsp;&nbsp; y/o&nbsp;&nbsp; p&eacute;rdida f&iacute;sica por cualquier causa.
+                  p
+                    strong Responsable
+                    | : Profesional de gesti&oacute;n administrativa
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
               tr
-                td 6
-                td Mantenimientos, revisiones preventivas y correctivas de equipos de computación y comunicación, extintores, alarmas y sistemas contra incendio, para mantenerlos en óptimas condiciones.
-                td Equipos de computación y comunicación periféricos, sistemas eléctricos UPS, aires acondicionados, alarmas, sistemas contra incendio, extintores, reglamento del edificio.
-                td Contratos anuales de mantenimiento, garantías vigentes y control del mantenimiento de los equipos. <br><br> <b>Responsable:</b> Profesional de gestión administrativa y/o supervisor asignado al contrato de mantenimiento.
-                td
-                td 
+                td(width='44')
+                  p 6
+                td(width='175')
+                  p
+                    | Mantenimientos, revisiones preventivas y correctivas de equipos de computaci&oacute;n y comunicaci&oacute;n, extintores, alarmas y sistemas contra incendio, para mantenerlos en &oacute;ptimas condiciones.
+                td(width='173')
+                  p
+                    | Equipos de computaci&oacute;n&nbsp;&nbsp;&nbsp;&nbsp; y comunicaci&oacute;n perif&eacute;ricos, sistemas el&eacute;ctricos UPS, aires acondicionados, alarmas, sistemas contra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; incendio, extintores, reglamento del edificio.
+                td(width='199')
+                  p
+                    | Contratos anuales de mantenimiento, garant&iacute;as vigentes y control del mantenimiento de los equipos.
+                  p &nbsp;
+                  p
+                    strong Responsable
+                    | : Profesional&nbsp;&nbsp; de gesti&oacute;n administrativa y/o supervisor asignado al contrato de mantenimiento.
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
               tr
-                td 7
-                td Actualizar las claves o contraseñade acceso a las aplicaciones y bases de datos del COPNIA.
-                td Base de datos, y sistemas de información del COPNIA.
-                td Mínimo cada seis meses o cuando se requiera por el usuario o por reemplazos del cargo. <br><br> <b>Responsable:</b> Todos los funcionarios de la entidad que manejen sistemas de información.
-                td
-                td 
+                td(width='44')
+                  p 7
+                td(width='175')
+                  p
+                    | Actualizar las claves o contrase&ntilde;ade acceso a las aplicaciones y bases de datos del COPNIA.
+                td(width='173')
+                  p Base de datos, y sistemas de informaci&oacute;n del COPNIA.
+                td(width='199')
+                  p
+                    | M&iacute;nimo cada seis meses o cuando se requiera por el usuario o por reemplazos del cargo.
+                  p &nbsp;
+                  p
+                    strong Responsable
+                    | : Todos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; los funcionarios de la entidad que manejen sistemas de informaci&oacute;n.
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
               tr
-                td 8
-                td Mantener los sistemas operativos, antivirus y aplicaciones.
-                td Sistemas operativos de equipos de cómputo, antivirus y aplicaciones.
-                td Entrega de una actualización cada vez que salga una nueva versión de las aplicaciones. Configuración de actualizaciones automáticas en los sistemas operativos. <br><br> <b>Responsable:</b> : Ingeniero de sistemas.
-                td
-                td  
+                td(width='44')
+                  p 8
+                td(width='175')
+                  p Mantener los sistemas operativos, antivirus y aplicaciones.
+                td(width='173')
+                  p Sistemas operativos de equipos de c&oacute;mputo, antivirus y aplicaciones.
+                td(width='199')
+                  p
+                    | Entrega de una actualizaci&oacute;n cada vez que salga una nueva versi&oacute;n de las&nbsp;&nbsp;&nbsp; aplicaciones. Configuraci&oacute;n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; de actualizaciones autom&aacute;ticas en los sistemas operativos.
+                  p &nbsp;
+                  p
+                    strong Responsable
+                    | : Ingeniero&nbsp;&nbsp;&nbsp;&nbsp; de sistemas.
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
               tr
-                td 9
-                td Mantener los equipos en condiciones ambientales óptimas de tal forma que no se deterioren por uso inadecuado.
-                td Equipos de computación y comunicación.
-                td Contrato de mantenimiento preventivo y correctivo vigente para los equipos de cómputo. <br><br> <b>Responsable:</b> Servicios generales, responsable de los contratos de mantenimiento.
-                td
-                td  
+                td(width='44')
+                  p 9
+                td(width='175')
+                  p
+                    | Mantener los equipos en condiciones ambientales &oacute;ptimas de tal forma que no se deterioren por uso inadecuado.
+                td(width='173')
+                  p Equipos de computaci&oacute;n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y comunicaci&oacute;n.
+                td(width='199')
+                  p
+                    | Contrato de mantenimiento preventivo y correctivo vigente para los equipos de c&oacute;mputo.
+                  p &nbsp;
+                  p
+                    strong Responsable
+                    | : Servicios generales, responsable de los contratos de mantenimiento de la entidad.
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
               tr
-                td 10
-                td Mantener como respaldo un inventario adicional con equipos de cómputo, repuestos y consumibles, para su reemplazo inmediato en caso de falla.
-                td Equipos de computación y comunicación de la entidad.
-                td Reducción del tiempo de respuesta a fallas de hardware y sistemas de información. <br><br> <b>Responsable:</b>  Responsable de servicios generales de la entidad
-                td
-                td
+                td(width='44')
+                  p 10
+                td(width='175')
+                  p
+                    | Mantener como respaldo un inventario adicional con equipos de c&oacute;mputo, repuestos y consumibles, para su reemplazo inmediato en caso de falla.
+                td(width='173')
+                  p Equipos de computaci&oacute;n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y comunicaci&oacute;n de la entidad.
+                td(width='199')
+                  p
+                    | Reducci&oacute;n&nbsp;&nbsp; del&nbsp;&nbsp;&nbsp;&nbsp; tiempo&nbsp;&nbsp;&nbsp;&nbsp; de respuesta a fallas de hardware y sistemas de&nbsp;&nbsp;&nbsp; informaci&oacute;n.
+                  p &nbsp;
+                  p
+                    strong Responsable
+                    | : Responsable de servicios generales de la entidad
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
               tr
-                td 11
-                td Disponibilidad de recursos para evitar la interrupción de la prestación del servicio en los sistemas de información de la entidad.
-                td Concepto n+1:UPS, planta eléctrica, almacenamiento, conexiones,  líneas, equipos de cómputo adicional y servidores con ambiente de prueba.
-                td Evitar la suspensión del servicio a los usuarios teniendo una alternativa adicional, contratando servicio de hosting en data center que garantice la disponibilidad. <br><br> <b>Responsable:</b> Ingeniero de sistemas.
-                td
-                td  
+                td(width='44')
+                  p 11
+                td(width='175')
+                  p
+                    | Disponibilidad de recursos para evitar la interrupci&oacute;n de la prestaci&oacute;n del servicio en los sistemas de informaci&oacute;n de la entidad.
+                td(width='173')
+                  p
+                    | Concepto n+1:UPS,&nbsp;&nbsp;&nbsp; planta el&eacute;ctrica, almacenamiento, conexiones,&nbsp; l&iacute;neas, equipos de c&oacute;mputo adicional y servidores con ambiente de prueba.
+                td(width='199')
+                  p
+                    | Evitar la suspensi&oacute;n del servicio a los usuarios teniendo una alternativa adicional, contratando servicio de hosting en data center que garantice la disponibilidad.
+                  p
+                    strong Responsable
+                    | : Ingeniero&nbsp;&nbsp;&nbsp;&nbsp; de sistemas.
+                td(width='39')
+                  p &nbsp;
+                td(width='50')
+                  p &nbsp;
+                td(width='88')
+                  p &nbsp;
+
+
 
 
 </template>

@@ -45,7 +45,7 @@
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/T3/img-3.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/T3/img-3.svg', alt='Texto que describa la imagen')
 
       .tarjeta.fae.p-3(x="50%" y="3%" numero="1")
         .h5.mb-2 Planificación: 

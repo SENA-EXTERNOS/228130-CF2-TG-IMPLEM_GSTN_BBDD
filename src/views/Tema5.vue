@@ -15,7 +15,7 @@
               .bloque-texto-x__img(data-aos='fade-right')(
                 :style="{'background-image': `url(${require('@/assets/curso/temas/T5/img-1.png')})`}"
               )
-              .bloque-texto-x__texto.p-4
+              .bloque-texto-g__texto.p-4
                 p.mb-3 Las políticas organizacionales de las empresas son relevantes porque permiten un adecuado procedimiento frente a diversas situaciones, dentro de ellas se considera importante contar con políticas de seguridad que guiarán a los usuarios responsables de cada proceso a actuar en consecuencia para salvaguardar la información obtenida, generada o procesada por la entidad, así mismo, las políticas permitirán que la organización trabaje bajo las mejores prácticas de seguridad y cumpla con los requisitos legales a los cuales esté obligada en el plano gubernamental de cada país.
 
     Separador
@@ -36,7 +36,7 @@
       span Políticas de seguridad
     .row.justify-content-around.align-items-center.mb-5
       figure(data-aos='fade-right')
-        img(src='@/assets/curso/temas/T5/img-3.png', alt='')
+        img(src='@/assets/curso/temas/T5/img-3.svg', alt='')
 
 
     p.mb-5 El proceso de migración de datos es la acción que permite cambiar el origen y formato de los datos a otro sistema de almacenamiento, este proceso se aplica en repetidas ocasiones, pues la reorganización de los datos a los nuevos sistemas puede causar perdidas de información o errores de guardado; sin embargo se hacen necesario en diversas tareas, como el reemplazo o actualización de servidores o equipos, el mejoramientos de un sitio web, el mantenimiento o cambio de un servidor o para reubicar un centro de datos.

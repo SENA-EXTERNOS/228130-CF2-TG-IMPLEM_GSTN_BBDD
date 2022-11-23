@@ -40,7 +40,7 @@
     TabsC.color-acento-contenido
       .py-3.py-md-4(titulo="Paso 1")
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             .titulo-sexto.color-acento-contenido
               h5 Figura 12.
               span Creación base de datos

@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'El principal punto a tener en cuenta en un gestor de bases de datos es la seguridad que se puede concebir como las acciones que desarrollan diariamente los administradores de la información enmarcados en la protección de datos contra accesos no autorizados. Cuando se habla de seguridad, se habla también de encriptación, tokenización y gestión de claves.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/banner-bg.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
