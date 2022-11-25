@@ -33,7 +33,7 @@
                 .bloque-texto-x__img(data-aos='fade-right')(
                   :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-2.png')})`}"
                 )
-                .bloque-texto-x__texto.p-4
+                .bloque-texto-g__texto.p-4
                   p.mb-3 Una pérdida de información en las bases de datos puede ocasionarse por diversos factores como; catástrofes ambientales, errores humanos o daños irreparables de equipos de cómputo. 
                   p.mb-3 Las copias de seguridad también son medidas esenciales antes de realizar una actualización de MySQL, y se pueden usar para transferir una instalación a otro sistema o para configurar servidores de réplica o espejo. 
                   p.mb-3 El MySQL es un gestor de bases de datos utilizado en las empresas para la administración de estas y el desarrollo de diferentes recursos de almacenamiento para la organización de información.
@@ -156,89 +156,89 @@
         p <b>Migración de herramientas en MongoDB 4.4</b>
     
     p.mb-4 A partir de MongoDB 4.4, la mongodump documentación migra a MongoDB Database Tools - mongodump. 
-
-    LineaTiempoC.color-primario(text-small).mb-5
-      .row.justify-content-around.align-items-center(titulo="Paso 1")
-        .row
-          p.mb-3 Para la versión 4.4 en la instalación de MongoDB se activa la interfaz gráfica MongoDB compass, aquí se podrán ejecutar las diferentes tareas de creación, eliminación, copiado, entre otras; antes de ello se debe correr el servidor MongoDB, para posteriormente hacer la conexión. Desde la lupa de Windows se busca MongoDBCompas.
-      
-        .col-md-4.mb-4.mb-md-0
-          figure
-            img(src='@/assets/curso/temas/T1/img-9.png', alt='Texto que describa la imagen')
+    .tarjeta.tarjeta--gris.p-4.mb-5
+      LineaTiempoC.color-primario(text-small).mb-5
+        .row.justify-content-around.align-items-center(titulo="Paso 1")
+          .row
+            p.mb-3 Para la versión 4.4 en la instalación de MongoDB se activa la interfaz gráfica MongoDB compass, aquí se podrán ejecutar las diferentes tareas de creación, eliminación, copiado, entre otras; antes de ello se debe correr el servidor MongoDB, para posteriormente hacer la conexión. Desde la lupa de Windows se busca MongoDBCompas.
+        
+          .col-md-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/T1/img-9.png', alt='Texto que describa la imagen')
+            
+        .row.justify-content-around.align-items-center(titulo="Paso 2")
+          p.mb-3 Hacer clic en la opción ‘conecct’ para conectarse a las bases de datos que tiene MongoDB. En la parte izquierda media, encontrará las bases de datos que están creadas.
+        
+          .row.justify-content-around.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 4.
+                span  <i>Conexión MongoDBCompass</i>
+              figure
+                img(src='@/assets/curso/temas/T1/img-10.png', alt='Texto que describa la imagen')
           
-      .row.justify-content-around.align-items-center(titulo="Paso 2")
-        p.mb-3 Hacer clic en la opción ‘conecct’ para conectarse a las bases de datos que tiene MongoDB. En la parte izquierda media, encontrará las bases de datos que están creadas.
-      
-        .row.justify-content-around.align-items-center
+            .col-md-6
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 5.
+                span  <i>Entorno de MongoDBCompass</i>
+              figure
+                img(src='@/assets/curso/temas/T1/img-11.png', alt='Texto que describa la imagen')
+
+        .row.justify-content-around.align-items-center(titulo="Paso 3")
+          p.mb-3 Trabajar con la base de datos ‘ejercicio1’, seleccionar y realizar el backup generando un archivo, luego dar clic escogiendo la colección y posteriormente clic en la opción ‘collection’.
+        
+          .row.justify-content-around.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 6.
+                span  <i>Bases de datos de mongodb</i>
+              figure
+                img(src='@/assets/curso/temas/T1/img-12.png', alt='Texto que describa la imagen')
+          
+            .col-md-6
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 7.
+                span  <i> Elección de una colección</i>
+              figure
+                img(src='@/assets/curso/temas/T1/img-13.png', alt='Texto que describa la imagen')
+
+        .row.justify-content-around.align-items-center(titulo="Paso 4")
+          p.mb-4 Dar clic en <i>‘collection’</i>, <i>‘export collection’</i> y seleccionar la opción <i>‘export full collection’</i> y clic en <i>‘select fields’</i>.
+        
+          .row.justify-content-around.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 8.
+                span  <i>Seleccionar opción Export Collection</i>
+              figure
+                img(src='@/assets/curso/temas/T1/img-14.png', alt='Texto que describa la imagen')
+          
+            .col-md-6
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 9.
+                span  <i>Seleccionar opción Select Fields</i>
+              figure
+                img(src='@/assets/curso/temas/T1/img-15.png', alt='Texto que describa la imagen')
+
+        .row.justify-content-around.align-items-center(titulo="Paso 5")
+          p Dar clic en <i>‘select output’</i>, después seleccionar la opción <i>‘csv’</i> y el directorio en donde se guardará el <i>bakup</i> de la colección.
+        
           .col-md-6.mb-4.mb-md-0
             .titulo-sexto.color-acento-contenido
-              h5 Figura 4.
-              span  <i>Conexión MongoDBCompass</i>
+              h5 Figura 10.
+              span  <i> Selección de Colección en archivo .csv</i>
             figure
-              img(src='@/assets/curso/temas/T1/img-10.png', alt='Texto que describa la imagen')
-        
-          .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 5.
-              span  <i>Entorno de MongoDBCompass</i>
-            figure
-              img(src='@/assets/curso/temas/T1/img-11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-16.png', alt='Texto que describa la imagen')
 
-      .row.justify-content-around.align-items-center(titulo="Paso 3")
-        p.mb-3 Trabajar con la base de datos ‘ejercicio1’, seleccionar y realizar el backup generando un archivo, luego dar clic escogiendo la colección y posteriormente clic en la opción ‘collection’.
-      
-        .row.justify-content-around.align-items-center
+        .row.justify-content-around.align-items-center(titulo="Paso 6")
+          p.mb-3 Crear la carpeta en donde se va a guardar el archivo, para el caso se creará en el escritorio, después dar clic en <i>‘Export’</i>.
+        
           .col-md-6.mb-4.mb-md-0
             .titulo-sexto.color-acento-contenido
-              h5 Figura 6.
-              span  <i>Bases de datos de mongodb</i>
+              h5 Figura 11.
+              span  <i> Archivo creado</i>
             figure
-              img(src='@/assets/curso/temas/T1/img-12.png', alt='Texto que describa la imagen')
-        
-          .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 7.
-              span  <i> Elección de una colección</i>
-            figure
-              img(src='@/assets/curso/temas/T1/img-13.png', alt='Texto que describa la imagen')
-
-      .row.justify-content-around.align-items-center(titulo="Paso 4")
-        p.mb-4 Dar clic en <i>‘collection’</i>, <i>‘export collection’</i> y seleccionar la opción <i>‘export full collection’</i> y clic en <i>‘select fields’</i>.
-      
-        .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 8.
-              span  <i>Seleccionar opción Export Collection</i>
-            figure
-              img(src='@/assets/curso/temas/T1/img-14.png', alt='Texto que describa la imagen')
-        
-          .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 9.
-              span  <i>Seleccionar opción Select Fields</i>
-            figure
-              img(src='@/assets/curso/temas/T1/img-15.png', alt='Texto que describa la imagen')
-
-      .row.justify-content-around.align-items-center(titulo="Paso 5")
-        p Dar clic en <i>‘select output’</i>, después seleccionar la opción <i>‘csv’</i> y el directorio en donde se guardará el <i>bakup</i> de la colección.
-      
-        .col-md-6.mb-4.mb-md-0
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 10.
-            span  <i> Selección de Colección en archivo .csv</i>
-          figure
-            img(src='@/assets/curso/temas/T1/img-16.png', alt='Texto que describa la imagen')
-
-      .row.justify-content-around.align-items-center(titulo="Paso 6")
-        p.mb-3 Crear la carpeta en donde se va a guardar el archivo, para el caso se creará en el escritorio, después dar clic en <i>‘Export’</i>.
-      
-        .col-md-6.mb-4.mb-md-0
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 11.
-            span  <i> Archivo creado</i>
-          figure
-            img(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
 
     .tarjeta.fad.p-3.mb-5
       .row.justify-content-around.align-items-center
