@@ -47,7 +47,6 @@
             figure
               img(src='@/assets/curso/temas/T4/img-4.svg', alt='Texto que describa la imagen')
           .col-xl-10
-            h4.mb-3 Bajo
             p Caídas de energía de corta duración, fallos en el disco duro, equivocaciones humanas, daño de archivos temporales, accesos no autorizados, etc. 
 
       .tarjeta.color-secundario--borde.fag.p-4(titulo="Medio")

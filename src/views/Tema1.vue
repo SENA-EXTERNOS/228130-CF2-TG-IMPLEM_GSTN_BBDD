@@ -61,7 +61,6 @@
             figure
               img(src='@/assets/curso/temas/T1/img-3.png', alt='Texto que describa la imagen')
           .col-md-5
-            h4.mb-4 Paso 1
             p.mb-5 Ubicarse en el directorio raíz donde está Mysql en la carpeta bin 
             p <b>“C:\Program Files\MySQL\MySQL Server 8.0\bin</b>
 
@@ -74,7 +73,6 @@
             figure
               img(src='@/assets/curso/temas/T1/img-4.png', alt='Texto que describa la imagen')
           .col-md-5
-            h4.mb-4 Paso 2
             p Crear en la carpeta ‘documentos de mi pc’ una carpeta llamada ‘CopiaBasesDatos’
         
       .py-3.py-md-4(titulo="Paso 3")
@@ -86,7 +84,6 @@
             figure
               img(src='@/assets/curso/temas/T1/img-5.png', alt='Texto que describa la imagen')
           .col-md-6
-            h4.mb-4 Paso 3
             p.mb-3 Escribir la siguiente sintaxis: <i>“mysqldump -h localhost -u root -p  ejercicio1,</i> C:\Users\Documents\CopiaBasesDatos\copiaejercicio1.sql
             p.mb-4 la capeta creada, dirige el documento copiaejercicio1.sql 
 
@@ -99,7 +96,6 @@
             figure
               img(src='@/assets/curso/temas/T1/img-6.png', alt='Texto que describa la imagen')
           .col-md-6
-            h4.mb-4 Paso 4
             p Verificar que se haya guardado automáticamente el archivo o copia de seguridad de la base de datos ‘ejercicio’1 en la carpeta asignada.
 
     Separador
