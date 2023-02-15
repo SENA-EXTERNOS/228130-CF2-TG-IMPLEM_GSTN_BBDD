@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Seguridad de Bases de Datos',
     descripcionCurso:
-      'El principal punto a tener en cuenta en un gestor de bases de datos es la seguridad que se puede concebir como las acciones que desarrollan diariamente los administradores de la información enmarcados en la protección de datos contra accesos no autorizados. Cuando se habla de seguridad, se habla también de encriptación, tokenización y gestión de claves.',
+      'El principal punto que se debe tener en cuenta para implementar un gestor de bases de datos, es la seguridad, la cual se puede entender como las acciones que desarrollan diariamente los administradores de la información, enfocándose en la protección de datos, contra accesos no autorizados. Cuando se habla de seguridad, se habla también de encriptación, tokenización y gestión de claves.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/banner-bg.png'),
     imagenesDecorativasBanner: [
@@ -39,55 +39,13 @@ export default {
         numero: '1',
         titulo: 'Copias de seguridad',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Copias de seguridad bases de datos SQL',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo:
-              'Copias de seguridad en tablas de bases de datos relacionales',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Copias de seguridad bases de datos NoSQL',
-            hash: 't_1_3',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Restauración de bases de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Restauración de bases de datos completa',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Restauración bases de datos SQL. Mysql',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Restauración de bases de datos NoSQL',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -109,21 +67,6 @@ export default {
         numero: '5',
         titulo: 'Políticas organizacionales',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Políticas de seguridad',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo:
-              'Políticas para la implementación de controles de seguridad de la información',
-            hash: 't_5_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -168,75 +111,75 @@ export default {
   },
   complementario: [
     {
-      tema: 'Migración de Bases de Datos SQL a NoSQL',
+      tema: 'Migración de Bases de Datos ',
       referencia:
-        'Antaño, A. C. M. el at. (2014), Migración de bases de datos sql a nosql. Revista Tlamati. ',
+        'Antaño, A. C. M., et al. (2014), Migración de bases de datos sql a nosql. <em>Revista Tlamati.</em> ',
       tipo: 'PDF',
       link:
         'https://www.researchgate.net/profile/Rene-Cuevas-Valencia/publication/272482056_Migracion_de_Bases_de_Datos_SQL_a_NoSQL/links/54e543390cf276cec173c2b5/Migracion-de-Bases-de-Datos-SQL-a-NoSQL.pdf',
     },
     {
-      tema: 'Seguridad de Datos ',
+      tema: 'Copias de seguridad',
       referencia:
-        'Martín, E. S. (2015), Salvaguarda y seguridad de los datos: administración de bases de datos (UF1473). IC Editorial. ',
+        ' Martín, E. S. (2015). <em>Salvaguarda y seguridad de los datos: administración de bases de datos (UF1473).</em> IC Editorial.',
       tipo: 'Libro',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/44140?page=13.',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/44140?page=13',
     },
     {
-      tema: 'Copias de seguridad Bases de datos Mysql',
+      tema: 'Copias de seguridad ',
       referencia:
-        'Programador Novato (2021), Respaldos y restauración de bases de datos en MySQL Workbench (Curso de MySQL desde cero. [Video]. YouTube.',
+        'Programador Novato. (2021), <em>Respaldos y restauración de bases de datos en MySQL Workbench (Curso de MySQL desde cero)</em> [video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=U-0SbQgnnGU&t=230s',
     },
     {
-      tema: 'Introducción de bases de datos Mongodb',
+      tema: 'Restauración de bases de datos',
       referencia:
-        'Sarasa, A. (2016), Introducción a las bases de datos NoSQL usando MongoDB. UOC. ',
+        'Sarasa, A. (2016). <em>Introducción a las bases de datos NoSQL usando MongoDB. UOC.</em>',
       tipo: 'Libro',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/58524?page=274.',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/58524?page=274',
     },
   ],
   glosario: [
     {
       termino: 'Archivo',
       significado:
-        'Conjunto de documentos, sea cual fuere su fecha, forma y soporte material, acumulados en el transcurso de la gestión por una persona o entidad pública o privada, y conservados respetando su orden para servir como testimonio y documentación a la persona o institución que los produce y a los ciudadanos. También se puede entender como la institución que está al servicio de la gestión administrativa, la información, la investigación y la cultura. (Ley 594 de 2000, art 3)',
+        'conjunto de documentos, sea cual fuere su fecha, forma y soporte material, acumulados durante el transcurso de la gestión, por una persona o entidad pública o privada, y conservados respetando su orden, para servir como testimonio y documentación a la persona o institución que los produce y a los ciudadanos. También se puede entender como la institución que está al servicio de la gestión administrativa, la información, la investigación y la cultura. (Ley 594 de 2000, art 3)',
     },
     {
       termino: 'Bases de datos',
       significado:
-        'Conocido también como banco de datos, se puede determinar que es un conjunto de información perteneciente a un mismo contexto y que se ordena de modo sistemático en una herramienta digital para su posterior consulta y análisis.',
+        'Se conoce también como banco de datos; se puede determinar que es un conjunto de información perteneciente a un mismo contexto y que se ordena de modo sistemático, en una herramienta digital, para su posterior consulta y análisis.',
     },
     {
       termino: 'Migración',
       significado:
-        'Paso de los programas, archivos y datos de un sistema de una plataforma tecnológica a otra.',
+        'paso de los programas, archivos y datos, de un sistema de una plataforma tecnológica a otra.',
     },
     {
       termino: 'Mongodb',
-      significado: 'Gestor de bases de datos NoSQL.',
+      significado: 'gestor de bases de datos NoSQL.',
     },
     {
       termino: 'MySQL',
-      significado: 'Gestor de bases de datos SQL',
+      significado: 'gestor de bases de datos SQL.',
     },
     {
       termino: 'NoSQL',
       significado:
-        'Paradigma para la administración de bases de datos que se adapta a una amplia variedad de modelos, formatos de valor clave, documento, columnas y gráficos.',
+        'paradigma para la administración de bases de datos que se adapta a una amplia variedad de modelos, formatos de valor clave, documentos, columnas y gráficos.',
     },
     {
       termino: 'Restauración',
       significado:
-        'Acción de cargar uno o varios elementos a una base de datos desde una copia de seguridad. La restauración sobrescribe cualquier información con la que encuentre en la copia de seguridad. Después de restaurar una base de datos, deberá recuperarla.',
+        'acción de cargar uno o varios elementos a una base de datos, desde una copia de seguridad. La restauración sobreescribe cualquier información con la que encuentre en la copia de seguridad. Después de restaurar una base de datos, deberá recuperarla.',
     },
     {
       termino: 'Seguridad de la información',
       significado:
-        'Todos los controles técnicos y metodológicos que permiten mitigar los riesgos a los que se expone la información.',
+        'todos los controles técnicos y metodológicos que permiten mitigar los riesgos a los que se expone la información.',
     },
     {
       termino: 'SGSI',
@@ -245,35 +188,36 @@ export default {
     },
     {
       termino: 'TIC',
-      significado: 'Sigla de Tecnologías de Información y Comunicación (TIC).',
+      significado:
+        'sigla de Tecnologías de la Información y las Comunicaciones.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Leguizamon, A. Y. (2017), Pautas para una correcta migración de bases de datos. Universidad Libre ',
+        'Leguizamon, A. Y. (2017). <em>Pautas para una correcta migración de bases de datos.</em> Universidad Libre.  ',
       link: 'https://repository.unilibre.edu.co/handle/10901/11161',
     },
     {
       referencia:
-        'Lozano Banqueri, J. M. (2018), Creación y gestión de una base de datos con MySQL y phpMyAdmin. Universidad de Jaén, Facultad de Ciencias Sociales y Jurídicas. ',
+        'Lozano Banqueri, J. M. (2018). <em>Creación y gestión de una base de datos con MySQL y phpMyAdmin.</em> Universidad de Jaén, Facultad de Ciencias Sociales y Jurídicas.  ',
       link: 'https://tauja.ujaen.es/bitstream/10953.1/9445/1/TFG%20%285%29.pdf',
     },
     {
       referencia:
-        'Manjarrez Antaño, A (2014), Migración de bases de datos sql a nosql. Revista Tlamati, Especial. ',
+        'Manjarrez Antaño, A. (2014). <em>Migración de bases de datos sql a nosql. Revista Tlamati, Especial.</em>  ',
       link:
         'https://www.researchgate.net/profile/Rene-Cuevas-Valencia/publication/272482056_Migracion_de_Bases_de_Datos_SQL_a_NoSQL/links/54e543390cf276cec173c2b5/Migracion-de-Bases-de-Datos-SQL-a-NoSQL.pdf',
     },
     {
       referencia:
-        'Pulido Romero, E. aet al.(2019), Base de datos. Grupo Editorial Patria.  ',
+        'Pulido Romero, E., et al.(2019), <em>Base de datos.</em> Grupo Editorial Patria.   ',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/121283 ',
     },
     {
       referencia:
-        'UTC (2020), Migración de bases de datos: Conceptos y principios (parte 1) Cloud Architecture Center. ',
+        'UTC. (2020). <em>Migración de bases de datos: Conceptos y principios (parte 1) Cloud Architecture Center.</em>  ',
       link:
         'https://cloud.google.com/architecture/database-migration-concepts-principles-part-1?hl=es-419',
     },

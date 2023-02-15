@@ -13,7 +13,8 @@
           img(src='@/assets/curso/temas/T4/img-1.png', alt='')
                     
       .col-lg-9.mb-5
-        p.mb-2 <b>Según Ardila, S. (2016):</b> 
+        p.mb-2 Shirly Ardila define, en la siguiente cita, la importancia de los planes para el resguardo de las bases de datos:
+
         .bloque-texto-b.color-secundario.p-4.mb-4
           .bloque-texto-b__texto
             p.mb-0 “Cualquier sistema de redes de computadoras (ordenadores, periféricos y accesorios) está expuesto a riesgos y puede ser fuente de problemas. El hardware y el software están expuestos a diversos factores de riesgo humano y físicos. Estos problemas menores y mayores sirven para retroalimentar los procedimientos y planes de seguridad en la información. Pueden originarse pérdidas catastróficas a partir de fallos de componentes críticos (el disco duro), bien por grandes desastres (incendios, terremotos, sabotaje, etc.) o por fallas técnicas (errores humanos, virus informático, etc.) que producen daño físico irreparable.” 
@@ -57,20 +58,121 @@
           .col-xl-10
             p Destrucción de equipos de cómputo, incendios, inundaciones, daño de equipo, robos, daños irreparables del sistema de información, etc.
     
-    p.mb-5 En la siguiente tabla se muestran los tipos de riesgo con su respectivo factor y prevención.
+    p.mb-5 En la siguiente tabla se muestran los tipos de riesgo, con su respectivo factor y prevención:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 1
+          br
+          span.fst-italic Factores de riesgo 
+        .tabla-a.color-acento-contenido.mb-5
+          table
+            caption Nota. Tomado de plan de contingencia y políticas de seguridad de sistemas de información -Copnia- (2012).
+            thead
+              tr
+                th Riesgo factor
+                th Tipo de riesgo
+                th Prevención y mitigación
+            tbody
+              tr
+                td Fuego: destrucción de equipos y archivos.
+                td.text-center(style='color: #2fce1d') Bajo
+                td Extintores, aspersores automáticos, detectores de humo, pólizas de seguros
+              tr
+                td Robo común: pérdida de equipos y archivos
+                td.text-center(style='color: red') Medio
+                td Seguridad privada, alarma, seguro contra todo riesgo y copias de respaldo (BackUp)
+              tr
+                td Vandalismo: daño a los equipos y archivos
+                td.text-center(style='color: red') Medio
+                td Seguro contra todo riesgo, copias de respaldo.
+              tr
+                td Fallas en los equipos: daño a los archivos
+                td.text-center(style='color: red') Medio
+                td Seguro contra todo riesgo, copias de respaldo.
+              tr
+                td Equivocaciones: daño a los archivos
+                td.text-center(style='color: #2fce1d') Bajo
+                td Mantenimiento, equipos de respaldo, garantía y copias de respaldo. 
+              tr
+                td Virus: daño a equipos y archivos
+                td.text-center(style='color: red') Medio
+                td Actualizaciones del sistema operativo, antivirus actualizados, copias de respaldo
+              tr
+                td Terremotos: destrucción de equipo y archivos
+                td.text-center(style='color: red') Medio
+                td Seguro contra todo riesgo, copias de respaldo, cumpliendo de las normas antisísmicas en las sedes.
+              tr
+                td Accesos no autorizados: filtrado no autorizado de datos
+                td.text-center(style='color: #2fce1d') Bajo
+                td Cambio de claves de acceso cada seis meses,  política de seguridad para acceso a personal competente.
+              tr
+                td Robo de datos: difusión de datos sin el debido cubrimiento de su costo
+                td.text-center(style='color: #2fce1d') Bajo
+                td Cambio de claves de acceso cada seis meses, custodia de las copias de respaldo.
+              tr
+                td Fraude: modificación y/o desvío de la información y fondos de la institución
+                td.text-center(style='color: #2fce1d') Bajo
+                td Sistemas de información seguros con dos usuarios para autorizar transacciones, procedimiento de control y registro de transacciones en tablas de auditoría    
+    .row.justify-content-center.mb-5
+      .col-lg-1.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/c4.svg', alt='')
+      .col-lg-11 Asimismo, existen los planes de respaldo, que consisten en documentar las acciones realizadas durante un determinado tiempo con el objeto de prever, mitigar o eliminar los riesgos de perdida de la información en los sistemas gestores de bases de datos. En la siguiente tabla se presenta un formato de plan de resguardo que puede ser aplicado en cualquier organización:
 
-    .titulo-sexto.color-acento-contenido
-      h5 Tabla 1.
-      span Factores de riesgo 
 
-    .row.mt-5
-      .col-10.offset-1  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 2
+          br
+          span.fst-italic Formato de plan de respaldo 
         .tabla-a.color-acento-contenido.mb-5 
-
-
-        
-          
           table(width='767')
+            caption Nota. Tomado de plan de contingencia y políticas de seguridad de sistemas de información 2012, (Copnia).
             thead
               tr
                 td(rowspan='2' width='44')

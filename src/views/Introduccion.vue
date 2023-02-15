@@ -15,12 +15,12 @@
           img(src='@/assets/curso/temas/introduccion/img-1.png', alt='')
                     
       .col-lg-9.md-5
-        p.mb-4 Estimado aprendiz, reciba una calurosa bienvenida al desarrollo de este componente formativo, a través del cual podrá aprender sobre la importancia de la seguridad de las bases de datos SQL Y NoSQL. En la instalación de MySQL y MongoDb, se debe considerar el acceso a los servidores y las generalidades que afectan la seguridad, además de los buenos procesos en la instalación.
+        p.mb-4 Apreciado aprendiz, bienvenido a este componente formativo, donde podrá aprender sobre la importancia de la seguridad de las bases de datos SQL y NoSQL. Para la instalación de MySQL y MongoDb, se debe considerar el acceso a los servidores y las generalidades que afectan la seguridad, además de los buenos procedimientos en la instalación.
         .row.mb-4
           .col-12
             .cajon.color-acento-contenido.p-4.mb-4.color-final
-              p Dentro de las prácticas correctas es imprescindible tener copias de seguridad idóneas, tanto de los archivos de base de datos como de la configuración y archivos de registro. Adicionalmente, es importante asegurarse de tener una solución de recuperación de información exitosa.
-        p.mb-3 El siguiente enlace lo llevará al video de introducción donde conocerá los temas a tratar. Deseamos que culmine este aprendizaje, apropiando adecuadamente todos los conceptos, <b>¡Muchos éxitos!</b>
+              p Dentro de las prácticas correctas, es imprescindible tener copias de seguridad idóneas, tanto de los archivos de la base de datos, como de la configuración y archivos del registro. Adicionalmente, es importante asegurarse de tener una solución para la recuperación exitosa de la información.
+        p.mb-3 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
     
     figure.mb-5
       .video

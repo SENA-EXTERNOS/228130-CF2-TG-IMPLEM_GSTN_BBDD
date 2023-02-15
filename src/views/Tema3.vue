@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Migración de BD
+      h1 Migración de bases de datos
 
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-3.mb-4
@@ -39,7 +39,7 @@
           span 
         p <b>Migración de SQL a NoSQL</b>
 
-    p.mb-5 Ya se han visto las múltiples razones que justifican la migración de bases de datos, siempre con el objetivo de optimizar procesos en su gestión y administración, a continuación, se presenta la metodología o técnicas a tener en cuenta para la migración de datos:
+    p.mb-5 Ya se han visto las múltiples razones que justifican la migración de bases de datos, siempre con el objetivo de optimizar procesos en su gestión y administración; a continuación, se presenta la metodología o técnicas que se deben tener en cuenta, para la migración de datos:
         
 
     ImagenInfografica.color-secundario.mb-5
@@ -60,7 +60,7 @@
         p Una migración de bases de datos implica nuevas tecnologías, esto sugiere precaución al copiar la información a la base de datos nueva para no tener perdidas, por tal razón, es necesario identificar los campos nuevos verificando los registros por cada uno. 
 
       .tarjeta.fae.p-3(x="77%" y="83%" numero="4")
-        .h5.mb-2 Restricciones y trigers: 
+        .h5.mb-2 Restricciones y #[em triggers:]  
         p Las bases de datos que serán sometidas a la migración no deben tener ningún tipo de restricción en los datos que pueda generar errores de copiado.
 
       .tarjeta.fae.p-3(x="50%" y="96%" numero="5")
@@ -79,39 +79,27 @@
         .h5.mb-2 Monitoreo: 
         p Es el ejercicio de vigilancia durante la migración, su objetivo es asegurar que el procedimiento no sufra ningún contratiempo, ya que estos procesos pueden tardar horas o días según la cantidad de información que tenga el gestor.
 
-    p.mb-5 Anteriormente, se habló sobre las técnicas de migración de bases de datos de SQL a NOSQL, es momento de conocer los pasos para realizar la migración de Mysql a Mongod en phpmyadmin.
+    p.mb-5 Anteriormente, se trató el tema de las técnicas de migración de bases de datos de SQL a NoSQL; es momento de conocer los pasos para realizar una migración de información, de MySQL a Mongod en phpMyAdmin:
 
     .tarjeta.faf.p-4.mb-5
       SlyderA(tipo="b")
         .row
           p.mb-4 Se procede a realizar la migración de Mysql a Mongod en phpmyadmin
           .col-md-6.mb-4.mb-md-0
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 20.
-              span  <i>Entorno PhpMyAdmin</i>
             figure
               img(src='@/assets/curso/temas/T3/img-4.png', alt='Texto que describa la imagen')
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 21.
-              span  <i>Relaciones entre tablas</i>
             figure
               img(src='@/assets/curso/temas/T3/img-5.png', alt='Texto que describa la imagen')
         
         .row
           p.mb-4 Seleccionar la base de datos que se va a exportar con todas las tablas en archivos .csv de mysql, dar clic en exportar para ver las tablas en archivo .zip. 
           .col-md-6.mb-4.mb-md-0
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 22.
-              span  <i>Exportación base de datos mysql</i>
             figure
               img(src='@/assets/curso/temas/T3/img-6.png', alt='Texto que describa la imagen')
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 23.
-              span  <i>Archivo exportado con las tablas </i>
             figure
               img(src='@/assets/curso/temas/T3/img-7.png', alt='Texto que describa la imagen')
 
@@ -120,9 +108,6 @@
             p Se crea la base de datos en Mongodb con las tres colecciones curso, depto y profesor.
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 24.
-              span  <i>Creación de bases de datos universidad mongodb</i>
             figure
               img(src='@/assets/curso/temas/T3/img-8.png', alt='Texto que describa la imagen')
 

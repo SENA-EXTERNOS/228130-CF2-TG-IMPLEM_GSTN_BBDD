@@ -20,8 +20,10 @@
 
     Separador
 
-    #t_5_1.titulo-segundo.color-acento-contenido
-      h2 5.1 Políticas de seguridad
+    ul.lista-ul--color
+      li
+        i.fas.fa-square
+        h4 Políticas de seguridad
 
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-1.mb-4
@@ -32,14 +34,15 @@
         p.mb-2 A continuación, podrá conocer sobre el desarrollo de las políticas organizacionales, las cuales deben pasar por ciertas fases para la definición de responsabilidades de las áreas encargadas de su creación, estructuración, descripción, revisión y aprobación; para lo cual se requieren actividades de verificación e investigación en los siguientes aspectos:
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 25.
-      span Políticas de seguridad
+      h5 Figura 1
+      br
+      span.fst-italic Políticas de seguridad
     .row.justify-content-around.align-items-center.mb-5
       figure(data-aos='fade-right')
         img(src='@/assets/curso/temas/T5/img-3.svg', alt='')
 
 
-    p.mb-5 El proceso de migración de datos es la acción que permite cambiar el origen y formato de los datos a otro sistema de almacenamiento, este proceso se aplica en repetidas ocasiones, pues la reorganización de los datos a los nuevos sistemas puede causar perdidas de información o errores de guardado; sin embargo se hacen necesario en diversas tareas, como el reemplazo o actualización de servidores o equipos, el mejoramientos de un sitio web, el mantenimiento o cambio de un servidor o para reubicar un centro de datos.
+    p.mb-5 El proceso de migración de datos, es la acción que permite cambiar el origen y el formato de los datos, a otro sistema de almacenamiento; este proceso se aplica en repetidas ocasiones, debido a que la reorganización de los datos a los nuevos sistemas, puede causar pérdidas de información o errores de almacenamiento; sin embargo, se hace necesario en el proceso de las diversas tareas, como: el reemplazo o actualización de servidores o equipos, el mejoramientos de un sitio web, el mantenimiento o cambio de un servidor o para reubicar un centro de datos. Observemos, a continuación, este proceso:
 
 
     ImagenInfografica.color-secundario.mb-5
@@ -64,8 +67,10 @@
 
     Separador
 
-    #t_5_2.titulo-segundo.color-acento-contenido
-      h2 5.2 Políticas para la implementación de controles de seguridad de la información 
+    ul.lista-ul--color
+      li
+        i.fas.fa-square
+        h4.mb-0 Políticas para la implementación de controles de seguridad de la información 
 
     
     p.mb-5 Definir las políticas de seguridad para las bases de datos con el fin de proteger la información, es un hecho prioritario para las organizaciones por su alta sensibilidad y valor comercial. Por lo tanto, se deben tener presentes los siguientes puntos:
@@ -115,7 +120,10 @@
       .col-md-5.mb-5.mb-md-0
         figure
           img(data-aos='fade-right')(src='@/assets/curso/temas/T5/img-5.png', alt='')
-
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #fff4da ")
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
       
 
     

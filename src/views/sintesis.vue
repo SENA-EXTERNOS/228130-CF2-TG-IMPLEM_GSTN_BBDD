@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p El siguiente mapa conceptual presenta los conceptos vistos en el componente formativo sobre la migración de una base de datos. Esta información debe ser usada como guía para realizar de manera satisfactoria las respectivas actividades.
+    p El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo:
 
     .row.justify-content-center
       .col-lg-10.mb-5
