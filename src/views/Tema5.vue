@@ -18,7 +18,6 @@
               .bloque-texto-g__texto.p-4
                 p.mb-3 Las políticas organizacionales de las empresas son relevantes porque permiten un adecuado procedimiento frente a diversas situaciones, dentro de ellas se considera importante contar con políticas de seguridad que guiarán a los usuarios responsables de cada proceso a actuar en consecuencia para salvaguardar la información obtenida, generada o procesada por la entidad, así mismo, las políticas permitirán que la organización trabaje bajo las mejores prácticas de seguridad y cumpla con los requisitos legales a los cuales esté obligada en el plano gubernamental de cada país.
 
-    Separador
 
     ul.lista-ul--color
       li

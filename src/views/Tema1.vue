@@ -43,7 +43,6 @@
           .cajon.color-primario.p-4.mb-4(style="background-color: #dae4ef ")
             p.mb-0 MySQL ofrece múltiples opciones de copia de seguridad entre las que es posible elegir las características que mejor se adapten a los requisitos de su instalación.
     
-    Separador
 
     ul.lista-ul--color
       li
@@ -87,7 +86,6 @@
           .col-md-6
             p Verificar que se haya guardado automáticamente el archivo o copia de seguridad de la base de datos ‘ejercicio’1 en la carpeta asignada.
 
-    Separador
 
 
     ul.lista-ul--color
@@ -117,7 +115,6 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/XcVD0vrZy1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
-    Separador
 
 
     ul.lista-ul--color
