@@ -32,8 +32,6 @@
       .col-md-9
         p.mb-5 Se restaura y recupera toda la base de datos que permanece sin conexión, esta acción se ejecuta cuando más del 50% de los datos se han dañado o se presume que lo hicieron.
 
-    Separador
-
     ul.lista-ul--color
       li
         i.fas.fa-square
