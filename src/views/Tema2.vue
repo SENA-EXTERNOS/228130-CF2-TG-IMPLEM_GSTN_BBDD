@@ -17,7 +17,6 @@
           br
           | SQL permite restaurar los datos de las copias de seguridad de toda una base de datos, un archivo de datos o una página de datos, tal y como se describe a continuación:
 
-    Separador
 
     ul.lista-ul--color
       li
@@ -55,7 +54,6 @@
               img(src='@/assets/curso/c2.svg', alt='Texto que describa la imagen')
           .col-md-6
             p Copia de seguridad base de datos
-    Separador
 
     ul.lista-ul--color
       li
