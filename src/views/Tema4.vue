@@ -33,12 +33,17 @@
           img(src='@/assets/curso/temas/T4/img-2.png', alt='')  
 
   
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/T4/img-3.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Por otro lado, existen los planes de contingencia, que son procedimientos definidos por la organización para tener una ruta de recuperación de la información en caso de una interrupción no planeada. Los sistemas son vulnerables a diversas interrupciones clasificadas en dos tipos de factores de riesgo:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-4
+          .col-lg-4
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/temas/T4/img-3.png')})`}"
+            )
+          .col-lg-8
+            .contenedor-dashed.p-3 
+              .bloque-texto-g1__texto.p-3
+                p.mb-0 Por otro lado, existen los planes de contingencia, que son procedimientos definidos por la organización para tener una ruta de recuperación de la información en caso de una interrupción no planeada. Los sistemas son vulnerables a diversas interrupciones clasificadas en dos tipos de factores de riesgo:
 
 
     TabsA.color-primario.mb-5

@@ -124,7 +124,7 @@
 .aside-menu__menu__item--sub-menu--active .aside-menu__menu__item__lnk, .aside-menu__menu__item--sub-menu--active .aside-menu__sec-menu__item__lnk
   background-color: #D8ECFF !important
 
-.bloque-texto-a__texto.p-4, .bloque-texto-g__texto.p-4
+//.bloque-texto-a__texto.p-4, .bloque-texto-g__texto.p-4
   position: relative
   &::before
     content: ''
@@ -136,3 +136,42 @@
     left: -1rem
 .banner-principal__img
   width: 400px !important
+
+.contenedor-dashed
+  border: 2px dashed #004B89
+  position: relative
+
+//.bloque-texto-g1__texto
+  position: relative
+  width: 100%
+  background-color: rgba(255, 255, 255, 0.95)
+
+.contenedor-dashed-2
+    border: 2px dashed #004B89
+    position: relative
+    right: 50%
+    @media (max-width: 500px)
+      right: 0%
+
+
+.bloque-texto-g1__img 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 50%
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media (max-width: 500px)
+    height: 250px
+    width: 100%
+    left: 0%
+
+.bloque-texto-g1__texto 
+  position: relative
+  width: 100%
+  background-color: rgba(255, 255, 255, 0.95)
+  right: 0%
+  @media (max-width: 500px)
+    width: 100%
+    right: 0%

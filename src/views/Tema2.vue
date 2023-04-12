@@ -7,15 +7,18 @@
         span 2
       h1 Restauración de bases de datos
 
-    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-1.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Como se ha mencionado, las bases de datos están expuestas a daños inesperados, esto hace necesario contar con planes para la recuperación de un error, una base de datos de SQL. Cuando esto sucede, es deber del administrador realizar un plan de contingencia haciendo la restauración, es decir un conjunto de copias de seguridad de SQL en una secuencia lógica de restauración correcta y significativa. 
-          br
-          br
-          | SQL permite restaurar los datos de las copias de seguridad de toda una base de datos, un archivo de datos o una página de datos, tal y como se describe a continuación:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-4
+          .col-lg-4
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-1.png')})`}"
+            )
+          .col-lg-8
+            .contenedor-dashed.p-3 
+              .bloque-texto-g1__texto.p-3
+                p.mb-3 Como se ha mencionado, las bases de datos están expuestas a daños inesperados, esto hace necesario contar con planes para la recuperación de un error, una base de datos de SQL. Cuando esto sucede, es deber del administrador realizar un plan de contingencia haciendo la restauración, es decir un conjunto de copias de seguridad de SQL en una secuencia lógica de restauración correcta y significativa. 
+                p SQL permite restaurar los datos de las copias de seguridad de toda una base de datos, un archivo de datos o una página de datos, tal y como se describe a continuación:
 
 
     ul.lista-ul--color

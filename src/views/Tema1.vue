@@ -25,19 +25,23 @@
             .cajon.color-acento-contenido.p-4.mb-4.color-final
               p Las bases de datos son fundamentales para el funcionamiento de las operaciones financieras en las organizaciones, ya que la información recolectada permite ver y analizar tendencias y comportamientos de compras para ofertar productos a una gran cantidad de clientes frecuentes y potenciales, por esta razón, tener copia de seguridad de las bases de datos es una buena práctica de seguridad de la información. 
       
-      .row.justify-content-around.align-items-center.mt-5
-        .col-11.px-5.py-4
+      .row.justify-content-around.align-items-center(data-aos='fade-right')
+        .col-12
           .row
             .col-12.d-lg-block
-              .bloque-texto-x.faa.p-3.p-sm-4.p-md-5.mb-5
-                .bloque-texto-x__img(data-aos='fade-right')(
-                  :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-2.png')})`}"
-                )
-                .bloque-texto-g__texto.p-4
-                  p.mb-3 Una pérdida de información en las bases de datos puede ocasionarse por diversos factores como; catástrofes ambientales, errores humanos o daños irreparables de equipos de cómputo. 
-                  p.mb-3 Las copias de seguridad también son medidas esenciales antes de realizar una actualización de MySQL, y se pueden usar para transferir una instalación a otro sistema o para configurar servidores de réplica o espejo. 
-                  p.mb-3 El MySQL es un gestor de bases de datos utilizado en las empresas para la administración de estas y el desarrollo de diferentes recursos de almacenamiento para la organización de información.
-                  p.mb-3 La seguridad en las base de datos es un tema prioritario en las organizaciones, ya que la información constituye un activo determinante para el funcionamiento y el crecimiento del negocio, es decir, con la información se pueden generar estrategias de mercadeo incrementar las ventas y aumentar los clientes, un ejemplo de ello son los vendedores de seguros, quienes entre más información tengan de clientes más opciones tendrán de ampliar sus ventas, por tal motivo existen formas de salvaguardar la información evitando pérdidas futuras por hechos naturales o humanos. 
+              .bloque-texto-x.faa.p-3.p-sm-4.p-md-4.mb-5
+                .col-lg-4
+                  .bloque-texto-g1__img(
+                    :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-2.png')})`}"
+                  )
+                .col-lg-8
+                  .contenedor-dashed-2.p-3
+                    .bloque-texto-g1__texto.p-3
+                      p.mb-3 Una pérdida de información en las bases de datos puede ocasionarse por diversos factores como; catástrofes ambientales, errores humanos o daños irreparables de equipos de cómputo. 
+                      p.mb-3 Las copias de seguridad también son medidas esenciales antes de realizar una actualización de MySQL, y se pueden usar para transferir una instalación a otro sistema o para configurar servidores de réplica o espejo. 
+                      p.mb-3 El MySQL es un gestor de bases de datos utilizado en las empresas para la administración de estas y el desarrollo de diferentes recursos de almacenamiento para la organización de información.
+                      p.mb-3 La seguridad en las base de datos es un tema prioritario en las organizaciones, ya que la información constituye un activo determinante para el funcionamiento y el crecimiento del negocio, es decir, con la información se pueden generar estrategias de mercadeo incrementar las ventas y aumentar los clientes, un ejemplo de ello son los vendedores de seguros, quienes entre más información tengan de clientes más opciones tendrán de ampliar sus ventas, por tal motivo existen formas de salvaguardar la información evitando pérdidas futuras por hechos naturales o humanos. 
+          
       .row.justify-content-center.mb-5
         .col-lg-10
           .cajon.color-primario.p-4.mb-4(style="background-color: #dae4ef ")
@@ -124,16 +128,19 @@
 
 
     .row.justify-content-around.align-items-center.mt-5
-      .col-10.px-5.py-4
-        .row
+      .col-10
+        .row(data-aos='fade-right')
           .col-12.d-lg-block
-            .bloque-texto-x.fab.p-3.p-sm-4.p-md-5.mb-5
-              .bloque-texto-x__img(data-aos='fade-right')(
-                :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-8.png')})`}"
-              )
-              .bloque-texto-g__texto.p-4
-                p.mb-3 “Para realizar un <i>backup</i> de la base de datos se utiliza el comando mongodump, y para ello es necesario que esté ejecutándose el servidor sobre el que se va a realizar el <i>backup</i>” (Sarasa, A. 2016). 
-                p.mb-3 Cada copia de seguridad se define de acuerdo a como esté estimado en una empresa, por lo general se establecen diariamente; sin embargo, hay datos que son de una importancia tal, que deben ser copiados de manera instantánea.
+            .bloque-texto-x.fab.p-3.p-sm-4.p-md-4.mb-5
+              .col-lg-4
+                .bloque-texto-g1__img(
+                  :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-8.png')})`}"
+                )
+              .col-lg-8
+                .contenedor-dashed-2.p-3
+                  .bloque-texto-g1__texto.p-4
+                    p.mb-3 “Para realizar un <i>backup</i> de la base de datos se utiliza el comando mongodump, y para ello es necesario que esté ejecutándose el servidor sobre el que se va a realizar el <i>backup</i>” (Sarasa, A. 2016). 
+                    p.mb-3 Cada copia de seguridad se define de acuerdo a como esté estimado en una empresa, por lo general se establecen diariamente; sin embargo, hay datos que son de una importancia tal, que deben ser copiados de manera instantánea.
 
     ul.lista-ul--color
       li
