@@ -44,7 +44,7 @@
         img(src='@/assets/curso/temas/T5/img-3.svg', alt='')
 
 
-    p.mb-5 El proceso de migración de datos, es la acción que permite cambiar el origen y el formato de los datos, a otro sistema de almacenamiento; este proceso se aplica en repetidas ocasiones, debido a que la reorganización de los datos a los nuevos sistemas, puede causar pérdidas de información o errores de almacenamiento; sin embargo, se hace necesario en el proceso de las diversas tareas, como: el reemplazo o actualización de servidores o equipos, el mejoramientos de un sitio web, el mantenimiento o cambio de un servidor o para reubicar un centro de datos. Observemos, a continuación, este proceso:
+    p.mb-5 El proceso de migración de datos, es la acción que permite cambiar el origen y el formato de los datos, a otro sistema de almacenamiento; este proceso se aplica en repetidas ocasiones, debido a que la reorganización de los datos a los nuevos sistemas, puede causar pérdidas de información o errores de almacenamiento; sin embargo, se hace necesario en el proceso de las diversas tareas, como: el reemplazo o actualización de servidores o equipos, el mejoramiento de un sitio web, el mantenimiento o cambio de un servidor o para reubicar un centro de datos. Observemos, a continuación, este proceso:
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -57,7 +57,7 @@
             p Determinar, al interior de la entidad, la persona, rol o dirección que tiene la competencia de formalizar las políticas de seguridad de la información mediante la firma y publicación de las mismas.
 
           .tarjeta.fae.p-3(x="33%" y="95%" numero="")
-            p  Identificar el por qué la entidad requiere la creación de la política de seguridad de información y el control al cual hace referencia su implementación.
+            p  Identificar el porqué la entidad requiere la creación de la política de seguridad de información y el control al cual hace referencia su implementación.
 
           .tarjeta.fae.p-3(x="50%" y="4%" numero="")
             p  Establecer el alcance ¿A qué población, áreas, procesos o departamentos aplica la política?, ¿Quiénes deben cumplir la política?

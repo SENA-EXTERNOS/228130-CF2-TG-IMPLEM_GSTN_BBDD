@@ -27,7 +27,7 @@
             p.mb-5 “La migración de datos consiste en la transferencia de materiales digitales de un origen de datos a otro. Se trata de una consideración clave para cualquier implementación, actualización o consolidación de un sistema informático”, (Antaño, A. C. M., et al. 2014) Existen muchos motivos para considerar una migración, como la preservación o difusión de los datos, mejoras en el funcionamiento de los motores, actualización de requerimientos de usuario o de software, interoperabilidad, estandarización o cambio de la tecnología, disminución de costos, incremento en el registro de datos, nuevos procedimientos de negocio o mejoras en la seguridad o el control de la información, entre otros escenarios posibles.
             br
             br
-            p.mt-5 Para realizar la migración se deben tener en cuenta metodologías que permitan el traslado de la información de forma segura, esto con el objetivo de que no haya perdida de información, por tal razón, se debe conocer donde se van a alojar los datos e identificar los formatos en los que está la información para determinar las conversiones necesarias en la adecuación a los nuevos formatos; y de esta manera lograr una migración exitosa. Por otra parte, es necesario identificar la flexibilidad de la base de datos para adaptarla a la nueva estructura, de modo que se preserven los datos en su estado original, lo que llevará más adelante a la depuración en caso de ser necesaria. Como medida prioritaria se deben realizar pruebas previas a la migración para identificar si existen problemas de carga o descarga de archivos en la nueva base de datos o gestor. A continuación, podrá visualizar en una infografía las técnicas de migración SQL a NOSQL.
+            p.mt-5 Para realizar la migración se deben tener en cuenta metodologías que permitan el traslado de la información de forma segura, esto con el objetivo de que no haya pérdida de información, por tal razón, se debe conocer donde se van a alojar los datos e identificar los formatos en los que está la información para determinar las conversiones necesarias en la adecuación a los nuevos formatos; y de esta manera lograr una migración exitosa. Por otra parte, es necesario identificar la flexibilidad de la base de datos para adaptarla a la nueva estructura, de modo que se preserven los datos en su estado original, lo que llevará más adelante a la depuración en caso de ser necesaria. Como medida prioritaria se deben realizar pruebas previas a la migración para identificar si existen problemas de carga o descarga de archivos en la nueva base de datos o gestor. A continuación, podrá visualizar en una infografía las técnicas de migración SQL a NOSQL.
       
       .col-xl-4.mb-4(data-aos='fade-right')
         figure
@@ -57,7 +57,7 @@
 
       .tarjeta.fae.p-3(x="88%" y="50%" numero="3")
         .h5.mb-2 Mapeador de tipo de datos: 
-        p Una migración de bases de datos implica nuevas tecnologías, esto sugiere precaución al copiar la información a la base de datos nueva para no tener perdidas, por tal razón, es necesario identificar los campos nuevos verificando los registros por cada uno. 
+        p Una migración de bases de datos implica nuevas tecnologías, esto sugiere precaución al copiar la información a la base de datos nueva para no tener pérdidas, por tal razón, es necesario identificar los campos nuevos verificando los registros por cada uno. 
 
       .tarjeta.fae.p-3(x="77%" y="83%" numero="4")
         .h5.mb-2 Restricciones y #[em triggers:]  
@@ -69,7 +69,7 @@
 
       .tarjeta.fae.p-3(x="23%" y="83%" numero="6")
         .h5.mb-2 Pruebas: 
-        p Un proceso de migración siempre debe estar sometido a pruebas de verificación, dado que la información es susceptible de perdidas o inconsistencias, es importante garantizar que no existe ausencia de datos.
+        p Un proceso de migración siempre debe estar sometido a pruebas de verificación, dado que la información es susceptible de pérdidas o inconsistencias, es importante garantizar que no existe ausencia de datos.
 
       .tarjeta.fae.p-3(x="12%" y="50%" numero="7")
         .h5.mb-2 Implementación: 

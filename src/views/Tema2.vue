@@ -17,7 +17,7 @@
           .col-lg-8
             .contenedor-dashed.p-3 
               .bloque-texto-g1__texto.p-3
-                p.mb-3 Como se ha mencionado, las bases de datos están expuestas a daños inesperados, esto hace necesario contar con planes para la recuperación de un error, una base de datos de SQL. Cuando esto sucede, es deber del administrador realizar un plan de contingencia haciendo la restauración, es decir un conjunto de copias de seguridad de SQL en una secuencia lógica de restauración correcta y significativa. 
+                p.mb-3 Como se ha mencionado, las bases de datos están expuestas a daños inesperados, esto hace necesario contar con planes para la recuperación de un error, una base de datos de SQL. Cuando esto sucede, es deber del administrador realizar un plan de contingencia haciendo la restauración, es decir, un conjunto de copias de seguridad de SQL en una secuencia lógica de restauración correcta y significativa. 
                 p SQL permite restaurar los datos de las copias de seguridad de toda una base de datos, un archivo de datos o una página de datos, tal y como se describe a continuación:
 
 

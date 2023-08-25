@@ -24,7 +24,7 @@
         .row.mb-4
           .col-12
             .cajon.color-acento-contenido.p-4.mb-4.color-final
-              p Las bases de datos hacen parte de los sistemas de información y están expuestas a múltiples riesgos naturales difíciles de predecir como: terremotos, huracanes, inundaciones, entre otros y riesgos artificiales, es decir los fallos propios de los sistemas de cómputo en el software y el hardware. En este sentido, los riesgos naturales tienen una probabilidad baja, mientras, que los riesgos artificiales son de probabilidad media. 
+              p Las bases de datos hacen parte de los sistemas de información y están expuestas a múltiples riesgos naturales difíciles de predecir como: terremotos, huracanes, inundaciones, entre otros y riesgos artificiales, es decir, los fallos propios de los sistemas de cómputo en el software y el hardware. En este sentido, los riesgos naturales tienen una probabilidad baja, mientras, que los riesgos artificiales son de probabilidad media. 
               
         p También existen otros riesgos naturales como las descargas o cortes eléctricos, los cuales pueden generar interrupción en las labores administrativas y el procesamiento de datos, para ello las organizaciones cuentan con generadores de corrientes UPS, que se activan de manera instantánea cuando hay cortes de energía, garantizando el funcionamiento continuo de los equipos de cómputo, en especial, los servidores donde están los programas que almacenan las bases de datos.
 
@@ -121,7 +121,7 @@
                 td Sistemas de información seguros con dos usuarios para autorizar transacciones, procedimiento de control y registro de transacciones en tablas de auditoría    
     .row.justify-content-center.mb-5
       .col-lg-1.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/c4.svg', alt='')
-      .col-lg-11 Asimismo, existen los planes de respaldo, que consisten en documentar las acciones realizadas durante un determinado tiempo con el objeto de prever, mitigar o eliminar los riesgos de perdida de la información en los sistemas gestores de bases de datos. En la siguiente tabla se presenta un formato de plan de resguardo que puede ser aplicado en cualquier organización:
+      .col-lg-11 Asimismo, existen los planes de respaldo, que consisten en documentar las acciones realizadas durante un determinado tiempo con el objeto de prever, mitigar o eliminar los riesgos de pérdida de la información en los sistemas gestores de bases de datos. En la siguiente tabla se presenta un formato de plan de resguardo que puede ser aplicado en cualquier organización:
 
 
 

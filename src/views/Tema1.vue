@@ -40,7 +40,7 @@
                       p.mb-3 Una pérdida de información en las bases de datos puede ocasionarse por diversos factores como; catástrofes ambientales, errores humanos o daños irreparables de equipos de cómputo. 
                       p.mb-3 Las copias de seguridad también son medidas esenciales antes de realizar una actualización de MySQL, y se pueden usar para transferir una instalación a otro sistema o para configurar servidores de réplica o espejo. 
                       p.mb-3 El MySQL es un gestor de bases de datos utilizado en las empresas para la administración de estas y el desarrollo de diferentes recursos de almacenamiento para la organización de información.
-                      p.mb-3 La seguridad en las base de datos es un tema prioritario en las organizaciones, ya que la información constituye un activo determinante para el funcionamiento y el crecimiento del negocio, es decir, con la información se pueden generar estrategias de mercadeo incrementar las ventas y aumentar los clientes, un ejemplo de ello son los vendedores de seguros, quienes entre más información tengan de clientes más opciones tendrán de ampliar sus ventas, por tal motivo existen formas de salvaguardar la información evitando pérdidas futuras por hechos naturales o humanos. 
+                      p.mb-3 La seguridad en las bases de datos es un tema prioritario en las organizaciones, ya que la información constituye un activo determinante para el funcionamiento y el crecimiento del negocio, es decir, con la información se pueden generar estrategias de mercadeo incrementar las ventas y aumentar los clientes, un ejemplo de ello son los vendedores de seguros, quienes entre más información tengan de clientes más opciones tendrán de ampliar sus ventas, por tal motivo existen formas de salvaguardar la información evitando pérdidas futuras por hechos naturales o humanos. 
           
       .row.justify-content-center.mb-5
         .col-lg-10
@@ -79,8 +79,8 @@
             figure
               img(src='@/assets/curso/temas/T1/img-5.png', alt='Texto que describa la imagen')
           .col-md-6
-            p.mb-3 Escribir la siguiente sintaxis: <i>“mysqldump -h localhost -u root -p  ejercicio1,</i> C:\Users\Documents\CopiaBasesDatos\copiaejercicio1.sql
-            p.mb-4 la capeta creada, dirige el documento copiaejercicio1.sql 
+            p.mb-3 Escribir la siguiente sintaxis: <i>“mysqldump -h localhost -u root -p  ejercicio1,</i> C:\Users\Documents\CopiaBasesDatos\copiaejercicio1.sql”
+            p.mb-4 La capeta creada, dirige el documento copiaejercicio1.sql 
 
       .py-3.py-md-4(titulo="Paso 4")
         .row.justify-content-around.align-items-center.mt-5
@@ -140,7 +140,7 @@
                 .contenedor-dashed-2.p-3
                   .bloque-texto-g1__texto.p-4
                     p.mb-3 “Para realizar un <i>backup</i> de la base de datos se utiliza el comando mongodump, y para ello es necesario que esté ejecutándose el servidor sobre el que se va a realizar el <i>backup</i>” (Sarasa, A. 2016). 
-                    p.mb-3 Cada copia de seguridad se define de acuerdo a como esté estimado en una empresa, por lo general se establecen diariamente; sin embargo, hay datos que son de una importancia tal, que deben ser copiados de manera instantánea.
+                    p.mb-3 Cada copia de seguridad se define de acuerdo a cómo esté estimado en una empresa, por lo general se establecen diariamente; sin embargo, hay datos que son de una importancia tal, que deben ser copiados de manera instantánea.
 
     ul.lista-ul--color
       li

@@ -201,7 +201,7 @@ export default {
     {
       referencia:
         'Lozano Banqueri, J. M. (2018). <em>Creación y gestión de una base de datos con MySQL y phpMyAdmin.</em> Universidad de Jaén, Facultad de Ciencias Sociales y Jurídicas.  ',
-      link: 'https://tauja.ujaen.es/bitstream/10953.1/9445/1/TFG%20%285%29.pdf',
+      link: 'https://crea.ujaen.es/handle/10953.1/9445',
     },
     {
       referencia:
