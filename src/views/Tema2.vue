@@ -37,7 +37,7 @@
     ul.lista-ul--color
       li
         i.fas.fa-square
-        h4.mb-0 Restauración bases de datos SQL. Mysql
+        h4.mb-0 Restauración bases de datos SQL. MySQL
 
     p.mb-5 Para las copias de seguridad con MySQL, se debe crear una base de datos nueva para guardar la información de la copia del archivo de respaldo que se ha generado en un repositorio o carpeta. La generación de este archivo se puede definir, según la metodología de seguridad de bases de datos, que puede ser por meses, semanas o días. Se debe realizar de la siguiente manera:
 

@@ -62,7 +62,7 @@
             figure
               img(src='@/assets/curso/temas/T1/img-3.png', alt='Texto que describa la imagen')
           .col-md-5
-            p.mb-5 Ubicarse en el directorio raíz donde está Mysql en la carpeta bin
+            p.mb-5 Ubicarse en el directorio raíz donde está MySQL en la carpeta bin
             p <b>“C:\Program Files\MySQL\MySQL Server 8.0\bin”</b>
 
       .py-3.py-md-4(titulo="Paso 2")
