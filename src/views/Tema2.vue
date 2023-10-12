@@ -15,9 +15,9 @@
               :style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-1.png')})`}"
             )
           .col-lg-8
-            .contenedor-dashed.p-3 
+            .contenedor-dashed.p-3
               .bloque-texto-g1__texto.p-3
-                p.mb-3 Como se ha mencionado, las bases de datos están expuestas a daños inesperados, esto hace necesario contar con planes para la recuperación de un error, una base de datos de SQL. Cuando esto sucede, es deber del administrador realizar un plan de contingencia haciendo la restauración, es decir, un conjunto de copias de seguridad de SQL en una secuencia lógica de restauración correcta y significativa. 
+                p.mb-3 Como se ha mencionado, las bases de datos están expuestas a daños inesperados, esto hace necesario contar con planes para la recuperación de un error, una base de datos de SQL. Cuando esto sucede, es deber del administrador realizar un plan de contingencia haciendo la restauración, es decir, un conjunto de copias de seguridad de SQL en una secuencia lógica de restauración correcta y significativa.
                 p SQL permite restaurar los datos de las copias de seguridad de toda una base de datos, un archivo de datos o una página de datos, tal y como se describe a continuación:
 
 
@@ -25,7 +25,7 @@
       li
         i.fas.fa-square
         h4.mb-0 Restauración de bases de datos completa
-    
+
     .row.mb-5.md-5
       .col-md-1
         figure
@@ -70,16 +70,16 @@
             .col-lg-1: img(src='@/assets/curso/c3.svg', alt='')
             .col-lg-10
               h4 Actualización de MongoDB
-              p “A partir de MongoDB 4.4, mongorestore ahora se lanza por separado del servidor MongoDB y utiliza su propio control de versiones, con una versión inicial de 100.0.0. Previamente, mongorestore se lanzó junto con el servidor MongoDB y utilizó versiones coincidentes”, (mongodb, 2022)
+              p “A partir de MongoDB 4.4, mongorestore ahora se lanza por separado del servidor MongoDB y utiliza su propio control de versiones, con una versión inicial de 100.0.0. Previamente, mongorestore se lanzó junto con el servidor MongoDB y utilizó versiones coincidentes”, (mongodb, 2022).
     p.mb-5 A continuación, se presenta el paso a paso, para realizar la restauración de una base de datos en MongoDB:
-   
+
     .row.mb-5.md-5
       .col-md-1
         figure
           img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-6.svg', alt='')
 
       .col-md-10
-        p.mb-5 En primer lugar, es necesario que exista un archivo con la copia de la base datos; paso seguido, se realiza el borrado de la base de datos dañada, con la sintaxis db.dropDatabase(); después, se crea la base de datos en MongoDBCompass (Interfaz gráfica), dando clic en el botón ‘create databases’ y aparece entonces, un cuadro para agregar bases de datos y colección; luego, se selecciona la opción ‘Import Data’, seguido de “agregar datos desde archivo de backup .csv”, y de esta manera queda el registro de datos, en la nueva base de datos. 
+        p.mb-5 En primer lugar, es necesario que exista un archivo con la copia de la base datos; paso seguido, se realiza el borrado de la base de datos dañada, con la sintaxis db.dropDatabase(); después, se crea la base de datos en MongoDBCompass (Interfaz gráfica), dando clic en el botón ‘create databases’ y aparece entonces, un cuadro para agregar bases de datos y colección; luego, se selecciona la opción ‘Import Data’, seguido de “agregar datos desde archivo de backup .csv”, y de esta manera queda el registro de datos, en la nueva base de datos.
 
 
     .tarjeta.tarjeta--gris.p-4.mb-5
@@ -87,7 +87,7 @@
         .row.justify-content-around.align-items-center(titulo="Paso 1")
           .col-md-6.mb-4.mb-md-0
             p Ver bases de datos <i>MogoDBCompass</i>
-        
+
           .col-md-6
             figure
               img(src='@/assets/curso/temas/T2/img-7.png', alt='Texto que describa la imagen')
@@ -96,15 +96,15 @@
         .row.justify-content-around.align-items-center(titulo="Paso 2")
           .col-md-6.mb-4.mb-md-0
             p Creación de bases de datos
-        
+
           .col-md-6
             figure
               img(src='@/assets/curso/temas/T2/img-8.png', alt='Texto que describa la imagen')
-            
+
         .row.justify-content-around.align-items-center(titulo="Paso 3")
           .col-md-6.mb-4.mb-md-0
-            p Seguido, encuentra la pantalla para nombrar bases de datos, en este caso se llamará ‘ejercicio1’
-        
+            p Seguido,a encuentra la ventana para nombrar bases de datos, en este caso se llamará ‘ejercicio1’
+
           .col-md-6
             figure
               img(src='@/assets/curso/temas/T2/img-9.png', alt='Texto que describa la imagen')
@@ -112,23 +112,23 @@
         .row.justify-content-around.align-items-center(titulo="Paso 4")
           .col-md-6.mb-4.mb-md-0
             p Importar datos
-        
+
           .col-md-6
             figure
               img(src='@/assets/curso/temas/T2/img-10.png', alt='Texto que describa la imagen')
 
         .row.justify-content-around.align-items-center(titulo="Paso 5")
           .col-md-6.mb-4.mb-md-0
-            p Agregar datos desde archivo 
-        
+            p Agregar datos desde archivo
+
           .col-md-6
             figure
               img(src='@/assets/curso/temas/T2/img-11.png', alt='Texto que describa la imagen')
 
         .row.justify-content-around.align-items-center(titulo="Paso 6")
           .col-md-6.mb-4.mb-md-0
-            p Aparece la pantalla de datos importados
-        
+            p Aparece la ventana de datos importados
+
           .col-md-6
             figure
               img(src='@/assets/curso/temas/T2/img-12.png', alt='Texto que describa la imagen')

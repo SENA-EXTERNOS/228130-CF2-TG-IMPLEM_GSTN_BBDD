@@ -159,7 +159,7 @@ export default {
         'paso de los programas, archivos y datos, de un sistema de una plataforma tecnológica a otra.',
     },
     {
-      termino: 'Mongodb',
+      termino: 'MongoDB',
       significado: 'gestor de bases de datos NoSQL.',
     },
     {
